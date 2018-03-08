@@ -1,0 +1,1868 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.eot?raw=true');
+  src: url('https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.eot?raw=true') format('embedded-opentype'), url('https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.woff2?raw=true') format('woff2'), url('https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.woff?raw=true') format('woff'), url('https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.ttf?raw=true') format('truetype'), url('https://github.com/FortAwesome/Font-Awesome/blob/master/fonts/fontawesome-webfont.svg?raw=true#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin fa($icon: null) {
+  @if $icon == null {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+  }
+  @else {
+    @if $icon == glass {
+      content: "\f000";
+    }
+    @else if $icon == music {
+      content: "\f001";
+    }
+    @else if $icon == search {
+      content: "\f002";
+    }
+    @else if $icon == envelope-o {
+      content: "\f003";
+    }
+    @else if $icon == heart {
+      content: "\f004";
+    }
+    @else if $icon == star {
+      content: "\f005";
+    }
+    @else if $icon == star-o {
+      content: "\f006";
+    }
+    @else if $icon == user {
+      content: "\f007";
+    }
+    @else if $icon == film {
+      content: "\f008";
+    }
+    @else if $icon == th-large {
+      content: "\f009";
+    }
+    @else if $icon == th {
+      content: "\f00a";
+    }
+    @else if $icon == th-list {
+      content: "\f00b";
+    }
+    @else if $icon == check {
+      content: "\f00c";
+    }
+    @else if $icon == remove {
+      content: "\f00d";
+    }
+    @else if $icon == close {
+      content: "\f00d";
+    }
+    @else if $icon == times {
+      content: "\f00d";
+    }
+    @else if $icon == search-plus {
+      content: "\f00e";
+    }
+    @else if $icon == search-minus {
+      content: "\f010";
+    }
+    @else if $icon == power-off {
+      content: "\f011";
+    }
+    @else if $icon == signal {
+      content: "\f012";
+    }
+    @else if $icon == gear {
+      content: "\f013";
+    }
+    @else if $icon == cog {
+      content: "\f013";
+    }
+    @else if $icon == trash-o {
+      content: "\f014";
+    }
+    @else if $icon == home {
+      content: "\f015";
+    }
+    @else if $icon == file-o {
+      content: "\f016";
+    }
+    @else if $icon == clock-o {
+      content: "\f017";
+    }
+    @else if $icon == road {
+      content: "\f018";
+    }
+    @else if $icon == download {
+      content: "\f019";
+    }
+    @else if $icon == arrow-circle-o-down {
+      content: "\f01a";
+    }
+    @else if $icon == arrow-circle-o-up {
+      content: "\f01b";
+    }
+    @else if $icon == inbox {
+      content: "\f01c";
+    }
+    @else if $icon == play-circle-o {
+      content: "\f01d";
+    }
+    @else if $icon == rotate-right {
+      content: "\f01e";
+    }
+    @else if $icon == repeat {
+      content: "\f01e";
+    }
+    @else if $icon == refresh {
+      content: "\f021";
+    }
+    @else if $icon == list-alt {
+      content: "\f022";
+    }
+    @else if $icon == lock {
+      content: "\f023";
+    }
+    @else if $icon == flag {
+      content: "\f024";
+    }
+    @else if $icon == headphones {
+      content: "\f025";
+    }
+    @else if $icon == volume-off {
+      content: "\f026";
+    }
+    @else if $icon == volume-down {
+      content: "\f027";
+    }
+    @else if $icon == volume-up {
+      content: "\f028";
+    }
+    @else if $icon == qrcode {
+      content: "\f029";
+    }
+    @else if $icon == barcode {
+      content: "\f02a";
+    }
+    @else if $icon == tag {
+      content: "\f02b";
+    }
+    @else if $icon == tags {
+      content: "\f02c";
+    }
+    @else if $icon == book {
+      content: "\f02d";
+    }
+    @else if $icon == bookmark {
+      content: "\f02e";
+    }
+    @else if $icon == print {
+      content: "\f02f";
+    }
+    @else if $icon == camera {
+      content: "\f030";
+    }
+    @else if $icon == font {
+      content: "\f031";
+    }
+    @else if $icon == bold {
+      content: "\f032";
+    }
+    @else if $icon == italic {
+      content: "\f033";
+    }
+    @else if $icon == text-height {
+      content: "\f034";
+    }
+    @else if $icon == text-width {
+      content: "\f035";
+    }
+    @else if $icon == align-left {
+      content: "\f036";
+    }
+    @else if $icon == align-center {
+      content: "\f037";
+    }
+    @else if $icon == align-right {
+      content: "\f038";
+    }
+    @else if $icon == align-justify {
+      content: "\f039";
+    }
+    @else if $icon == list {
+      content: "\f03a";
+    }
+    @else if $icon == dedent {
+      content: "\f03b";
+    }
+    @else if $icon == outdent {
+      content: "\f03b";
+    }
+    @else if $icon == indent {
+      content: "\f03c";
+    }
+    @else if $icon == video-camera {
+      content: "\f03d";
+    }
+    @else if $icon == photo {
+      content: "\f03e";
+    }
+    @else if $icon == image {
+      content: "\f03e";
+    }
+    @else if $icon == picture-o {
+      content: "\f03e";
+    }
+    @else if $icon == pencil {
+      content: "\f040";
+    }
+    @else if $icon == map-marker {
+      content: "\f041";
+    }
+    @else if $icon == adjust {
+      content: "\f042";
+    }
+    @else if $icon == tint {
+      content: "\f043";
+    }
+    @else if $icon == edit {
+      content: "\f044";
+    }
+    @else if $icon == pencil-square-o {
+      content: "\f044";
+    }
+    @else if $icon == share-square-o {
+      content: "\f045";
+    }
+    @else if $icon == check-square-o {
+      content: "\f046";
+    }
+    @else if $icon == arrows {
+      content: "\f047";
+    }
+    @else if $icon == step-backward {
+      content: "\f048";
+    }
+    @else if $icon == fast-backward {
+      content: "\f049";
+    }
+    @else if $icon == backward {
+      content: "\f04a";
+    }
+    @else if $icon == play {
+      content: "\f04b";
+    }
+    @else if $icon == pause {
+      content: "\f04c";
+    }
+    @else if $icon == stop {
+      content: "\f04d";
+    }
+    @else if $icon == forward {
+      content: "\f04e";
+    }
+    @else if $icon == fast-forward {
+      content: "\f050";
+    }
+    @else if $icon == step-forward {
+      content: "\f051";
+    }
+    @else if $icon == eject {
+      content: "\f052";
+    }
+    @else if $icon == chevron-left {
+      content: "\f053";
+    }
+    @else if $icon == chevron-right {
+      content: "\f054";
+    }
+    @else if $icon == plus-circle {
+      content: "\f055";
+    }
+    @else if $icon == minus-circle {
+      content: "\f056";
+    }
+    @else if $icon == times-circle {
+      content: "\f057";
+    }
+    @else if $icon == check-circle {
+      content: "\f058";
+    }
+    @else if $icon == question-circle {
+      content: "\f059";
+    }
+    @else if $icon == info-circle {
+      content: "\f05a";
+    }
+    @else if $icon == crosshairs {
+      content: "\f05b";
+    }
+    @else if $icon == times-circle-o {
+      content: "\f05c";
+    }
+    @else if $icon == check-circle-o {
+      content: "\f05d";
+    }
+    @else if $icon == ban {
+      content: "\f05e";
+    }
+    @else if $icon == arrow-left {
+      content: "\f060";
+    }
+    @else if $icon == arrow-right {
+      content: "\f061";
+    }
+    @else if $icon == arrow-up {
+      content: "\f062";
+    }
+    @else if $icon == arrow-down {
+      content: "\f063";
+    }
+    @else if $icon == mail-forward {
+      content: "\f064";
+    }
+    @else if $icon == share {
+      content: "\f064";
+    }
+    @else if $icon == expand {
+      content: "\f065";
+    }
+    @else if $icon == compress {
+      content: "\f066";
+    }
+    @else if $icon == plus {
+      content: "\f067";
+    }
+    @else if $icon == minus {
+      content: "\f068";
+    }
+    @else if $icon == asterisk {
+      content: "\f069";
+    }
+    @else if $icon == exclamation-circle {
+      content: "\f06a";
+    }
+    @else if $icon == gift {
+      content: "\f06b";
+    }
+    @else if $icon == leaf {
+      content: "\f06c";
+    }
+    @else if $icon == fire {
+      content: "\f06d";
+    }
+    @else if $icon == eye {
+      content: "\f06e";
+    }
+    @else if $icon == eye-slash {
+      content: "\f070";
+    }
+    @else if $icon == warning {
+      content: "\f071";
+    }
+    @else if $icon == exclamation-triangle {
+      content: "\f071";
+    }
+    @else if $icon == plane {
+      content: "\f072";
+    }
+    @else if $icon == calendar {
+      content: "\f073";
+    }
+    @else if $icon == random {
+      content: "\f074";
+    }
+    @else if $icon == comment {
+      content: "\f075";
+    }
+    @else if $icon == magnet {
+      content: "\f076";
+    }
+    @else if $icon == chevron-up {
+      content: "\f077";
+    }
+    @else if $icon == chevron-down {
+      content: "\f078";
+    }
+    @else if $icon == retweet {
+      content: "\f079";
+    }
+    @else if $icon == shopping-cart {
+      content: "\f07a";
+    }
+    @else if $icon == folder {
+      content: "\f07b";
+    }
+    @else if $icon == folder-open {
+      content: "\f07c";
+    }
+    @else if $icon == arrows-v {
+      content: "\f07d";
+    }
+    @else if $icon == arrows-h {
+      content: "\f07e";
+    }
+    @else if $icon == bar-chart-o {
+      content: "\f080";
+    }
+    @else if $icon == bar-chart {
+      content: "\f080";
+    }
+    @else if $icon == twitter-square {
+      content: "\f081";
+    }
+    @else if $icon == facebook-square {
+      content: "\f082";
+    }
+    @else if $icon == camera-retro {
+      content: "\f083";
+    }
+    @else if $icon == key {
+      content: "\f084";
+    }
+    @else if $icon == gears {
+      content: "\f085";
+    }
+    @else if $icon == cogs {
+      content: "\f085";
+    }
+    @else if $icon == comments {
+      content: "\f086";
+    }
+    @else if $icon == thumbs-o-up {
+      content: "\f087";
+    }
+    @else if $icon == thumbs-o-down {
+      content: "\f088";
+    }
+    @else if $icon == star-half {
+      content: "\f089";
+    }
+    @else if $icon == heart-o {
+      content: "\f08a";
+    }
+    @else if $icon == sign-out {
+      content: "\f08b";
+    }
+    @else if $icon == linkedin-square {
+      content: "\f08c";
+    }
+    @else if $icon == thumb-tack {
+      content: "\f08d";
+    }
+    @else if $icon == external-link {
+      content: "\f08e";
+    }
+    @else if $icon == sign-in {
+      content: "\f090";
+    }
+    @else if $icon == trophy {
+      content: "\f091";
+    }
+    @else if $icon == github-square {
+      content: "\f092";
+    }
+    @else if $icon == upload {
+      content: "\f093";
+    }
+    @else if $icon == lemon-o {
+      content: "\f094";
+    }
+    @else if $icon == phone {
+      content: "\f095";
+    }
+    @else if $icon == square-o {
+      content: "\f096";
+    }
+    @else if $icon == bookmark-o {
+      content: "\f097";
+    }
+    @else if $icon == phone-square {
+      content: "\f098";
+    }
+    @else if $icon == twitter {
+      content: "\f099";
+    }
+    @else if $icon == facebook-f {
+      content: "\f09a";
+    }
+    @else if $icon == facebook {
+      content: "\f09a";
+    }
+    @else if $icon == github {
+      content: "\f09b";
+    }
+    @else if $icon == unlock {
+      content: "\f09c";
+    }
+    @else if $icon == credit-card {
+      content: "\f09d";
+    }
+    @else if $icon == rss {
+      content: "\f09e";
+    }
+    @else if $icon == hdd-o {
+      content: "\f0a0";
+    }
+    @else if $icon == bullhorn {
+      content: "\f0a1";
+    }
+    @else if $icon == bell {
+      content: "\f0f3";
+    }
+    @else if $icon == certificate {
+      content: "\f0a3";
+    }
+    @else if $icon == hand-o-right {
+      content: "\f0a4";
+    }
+    @else if $icon == hand-o-left {
+      content: "\f0a5";
+    }
+    @else if $icon == hand-o-up {
+      content: "\f0a6";
+    }
+    @else if $icon == hand-o-down {
+      content: "\f0a7";
+    }
+    @else if $icon == arrow-circle-left {
+      content: "\f0a8";
+    }
+    @else if $icon == arrow-circle-right {
+      content: "\f0a9";
+    }
+    @else if $icon == arrow-circle-up {
+      content: "\f0aa";
+    }
+    @else if $icon == arrow-circle-down {
+      content: "\f0ab";
+    }
+    @else if $icon == globe {
+      content: "\f0ac";
+    }
+    @else if $icon == wrench {
+      content: "\f0ad";
+    }
+    @else if $icon == tasks {
+      content: "\f0ae";
+    }
+    @else if $icon == filter {
+      content: "\f0b0";
+    }
+    @else if $icon == briefcase {
+      content: "\f0b1";
+    }
+    @else if $icon == arrows-alt {
+      content: "\f0b2";
+    }
+    @else if $icon == group {
+      content: "\f0c0";
+    }
+    @else if $icon == users {
+      content: "\f0c0";
+    }
+    @else if $icon == chain {
+      content: "\f0c1";
+    }
+    @else if $icon == link {
+      content: "\f0c1";
+    }
+    @else if $icon == cloud {
+      content: "\f0c2";
+    }
+    @else if $icon == flask {
+      content: "\f0c3";
+    }
+    @else if $icon == cut {
+      content: "\f0c4";
+    }
+    @else if $icon == scissors {
+      content: "\f0c4";
+    }
+    @else if $icon == copy {
+      content: "\f0c5";
+    }
+    @else if $icon == files-o {
+      content: "\f0c5";
+    }
+    @else if $icon == paperclip {
+      content: "\f0c6";
+    }
+    @else if $icon == save {
+      content: "\f0c7";
+    }
+    @else if $icon == floppy-o {
+      content: "\f0c7";
+    }
+    @else if $icon == square {
+      content: "\f0c8";
+    }
+    @else if $icon == navicon {
+      content: "\f0c9";
+    }
+    @else if $icon == reorder {
+      content: "\f0c9";
+    }
+    @else if $icon == bars {
+      content: "\f0c9";
+    }
+    @else if $icon == list-ul {
+      content: "\f0ca";
+    }
+    @else if $icon == list-ol {
+      content: "\f0cb";
+    }
+    @else if $icon == strikethrough {
+      content: "\f0cc";
+    }
+    @else if $icon == underline {
+      content: "\f0cd";
+    }
+    @else if $icon == table {
+      content: "\f0ce";
+    }
+    @else if $icon == magic {
+      content: "\f0d0";
+    }
+    @else if $icon == truck {
+      content: "\f0d1";
+    }
+    @else if $icon == pinterest {
+      content: "\f0d2";
+    }
+    @else if $icon == pinterest-square {
+      content: "\f0d3";
+    }
+    @else if $icon == google-plus-square {
+      content: "\f0d4";
+    }
+    @else if $icon == google-plus {
+      content: "\f0d5";
+    }
+    @else if $icon == money {
+      content: "\f0d6";
+    }
+    @else if $icon == caret-down {
+      content: "\f0d7";
+    }
+    @else if $icon == caret-up {
+      content: "\f0d8";
+    }
+    @else if $icon == caret-left {
+      content: "\f0d9";
+    }
+    @else if $icon == caret-right {
+      content: "\f0da";
+    }
+    @else if $icon == columns {
+      content: "\f0db";
+    }
+    @else if $icon == unsorted {
+      content: "\f0dc";
+    }
+    @else if $icon == sort {
+      content: "\f0dc";
+    }
+    @else if $icon == sort-down {
+      content: "\f0dd";
+    }
+    @else if $icon == sort-desc {
+      content: "\f0dd";
+    }
+    @else if $icon == sort-up {
+      content: "\f0de";
+    }
+    @else if $icon == sort-asc {
+      content: "\f0de";
+    }
+    @else if $icon == envelope {
+      content: "\f0e0";
+    }
+    @else if $icon == linkedin {
+      content: "\f0e1";
+    }
+    @else if $icon == rotate-left {
+      content: "\f0e2";
+    }
+    @else if $icon == undo {
+      content: "\f0e2";
+    }
+    @else if $icon == legal {
+      content: "\f0e3";
+    }
+    @else if $icon == gavel {
+      content: "\f0e3";
+    }
+    @else if $icon == dashboard {
+      content: "\f0e4";
+    }
+    @else if $icon == tachometer {
+      content: "\f0e4";
+    }
+    @else if $icon == comment-o {
+      content: "\f0e5";
+    }
+    @else if $icon == comments-o {
+      content: "\f0e6";
+    }
+    @else if $icon == flash {
+      content: "\f0e7";
+    }
+    @else if $icon == bolt {
+      content: "\f0e7";
+    }
+    @else if $icon == sitemap {
+      content: "\f0e8";
+    }
+    @else if $icon == umbrella {
+      content: "\f0e9";
+    }
+    @else if $icon == paste {
+      content: "\f0ea";
+    }
+    @else if $icon == clipboard {
+      content: "\f0ea";
+    }
+    @else if $icon == lightbulb-o {
+      content: "\f0eb";
+    }
+    @else if $icon == exchange {
+      content: "\f0ec";
+    }
+    @else if $icon == cloud-download {
+      content: "\f0ed";
+    }
+    @else if $icon == cloud-upload {
+      content: "\f0ee";
+    }
+    @else if $icon == user-md {
+      content: "\f0f0";
+    }
+    @else if $icon == stethoscope {
+      content: "\f0f1";
+    }
+    @else if $icon == suitcase {
+      content: "\f0f2";
+    }
+    @else if $icon == bell-o {
+      content: "\f0a2";
+    }
+    @else if $icon == coffee {
+      content: "\f0f4";
+    }
+    @else if $icon == cutlery {
+      content: "\f0f5";
+    }
+    @else if $icon == file-text-o {
+      content: "\f0f6";
+    }
+    @else if $icon == building-o {
+      content: "\f0f7";
+    }
+    @else if $icon == hospital-o {
+      content: "\f0f8";
+    }
+    @else if $icon == ambulance {
+      content: "\f0f9";
+    }
+    @else if $icon == medkit {
+      content: "\f0fa";
+    }
+    @else if $icon == fighter-jet {
+      content: "\f0fb";
+    }
+    @else if $icon == beer {
+      content: "\f0fc";
+    }
+    @else if $icon == h-square {
+      content: "\f0fd";
+    }
+    @else if $icon == plus-square {
+      content: "\f0fe";
+    }
+    @else if $icon == angle-double-left {
+      content: "\f100";
+    }
+    @else if $icon == angle-double-right {
+      content: "\f101";
+    }
+    @else if $icon == angle-double-up {
+      content: "\f102";
+    }
+    @else if $icon == angle-double-down {
+      content: "\f103";
+    }
+    @else if $icon == angle-left {
+      content: "\f104";
+    }
+    @else if $icon == angle-right {
+      content: "\f105";
+    }
+    @else if $icon == angle-up {
+      content: "\f106";
+    }
+    @else if $icon == angle-down {
+      content: "\f107";
+    }
+    @else if $icon == desktop {
+      content: "\f108";
+    }
+    @else if $icon == laptop {
+      content: "\f109";
+    }
+    @else if $icon == tablet {
+      content: "\f10a";
+    }
+    @else if $icon == mobile-phone {
+      content: "\f10b";
+    }
+    @else if $icon == mobile {
+      content: "\f10b";
+    }
+    @else if $icon == circle-o {
+      content: "\f10c";
+    }
+    @else if $icon == quote-left {
+      content: "\f10d";
+    }
+    @else if $icon == quote-right {
+      content: "\f10e";
+    }
+    @else if $icon == spinner {
+      content: "\f110";
+    }
+    @else if $icon == circle {
+      content: "\f111";
+    }
+    @else if $icon == mail-reply {
+      content: "\f112";
+    }
+    @else if $icon == reply {
+      content: "\f112";
+    }
+    @else if $icon == github-alt {
+      content: "\f113";
+    }
+    @else if $icon == folder-o {
+      content: "\f114";
+    }
+    @else if $icon == folder-open-o {
+      content: "\f115";
+    }
+    @else if $icon == smile-o {
+      content: "\f118";
+    }
+    @else if $icon == frown-o {
+      content: "\f119";
+    }
+    @else if $icon == meh-o {
+      content: "\f11a";
+    }
+    @else if $icon == gamepad {
+      content: "\f11b";
+    }
+    @else if $icon == keyboard-o {
+      content: "\f11c";
+    }
+    @else if $icon == flag-o {
+      content: "\f11d";
+    }
+    @else if $icon == flag-checkered {
+      content: "\f11e";
+    }
+    @else if $icon == terminal {
+      content: "\f120";
+    }
+    @else if $icon == code {
+      content: "\f121";
+    }
+    @else if $icon == mail-reply-all {
+      content: "\f122";
+    }
+    @else if $icon == reply-all {
+      content: "\f122";
+    }
+    @else if $icon == star-half-empty {
+      content: "\f123";
+    }
+    @else if $icon == star-half-full {
+      content: "\f123";
+    }
+    @else if $icon == star-half-o {
+      content: "\f123";
+    }
+    @else if $icon == location-arrow {
+      content: "\f124";
+    }
+    @else if $icon == crop {
+      content: "\f125";
+    }
+    @else if $icon == code-fork {
+      content: "\f126";
+    }
+    @else if $icon == unlink {
+      content: "\f127";
+    }
+    @else if $icon == chain-broken {
+      content: "\f127";
+    }
+    @else if $icon == question {
+      content: "\f128";
+    }
+    @else if $icon == info {
+      content: "\f129";
+    }
+    @else if $icon == exclamation {
+      content: "\f12a";
+    }
+    @else if $icon == superscript {
+      content: "\f12b";
+    }
+    @else if $icon == subscript {
+      content: "\f12c";
+    }
+    @else if $icon == eraser {
+      content: "\f12d";
+    }
+    @else if $icon == puzzle-piece {
+      content: "\f12e";
+    }
+    @else if $icon == microphone {
+      content: "\f130";
+    }
+    @else if $icon == microphone-slash {
+      content: "\f131";
+    }
+    @else if $icon == shield {
+      content: "\f132";
+    }
+    @else if $icon == calendar-o {
+      content: "\f133";
+    }
+    @else if $icon == fire-extinguisher {
+      content: "\f134";
+    }
+    @else if $icon == rocket {
+      content: "\f135";
+    }
+    @else if $icon == maxcdn {
+      content: "\f136";
+    }
+    @else if $icon == chevron-circle-left {
+      content: "\f137";
+    }
+    @else if $icon == chevron-circle-right {
+      content: "\f138";
+    }
+    @else if $icon == chevron-circle-up {
+      content: "\f139";
+    }
+    @else if $icon == chevron-circle-down {
+      content: "\f13a";
+    }
+    @else if $icon == html5 {
+      content: "\f13b";
+    }
+    @else if $icon == css3 {
+      content: "\f13c";
+    }
+    @else if $icon == anchor {
+      content: "\f13d";
+    }
+    @else if $icon == unlock-alt {
+      content: "\f13e";
+    }
+    @else if $icon == bullseye {
+      content: "\f140";
+    }
+    @else if $icon == ellipsis-h {
+      content: "\f141";
+    }
+    @else if $icon == ellipsis-v {
+      content: "\f142";
+    }
+    @else if $icon == rss-square {
+      content: "\f143";
+    }
+    @else if $icon == play-circle {
+      content: "\f144";
+    }
+    @else if $icon == ticket {
+      content: "\f145";
+    }
+    @else if $icon == minus-square {
+      content: "\f146";
+    }
+    @else if $icon == minus-square-o {
+      content: "\f147";
+    }
+    @else if $icon == level-up {
+      content: "\f148";
+    }
+    @else if $icon == level-down {
+      content: "\f149";
+    }
+    @else if $icon == check-square {
+      content: "\f14a";
+    }
+    @else if $icon == pencil-square {
+      content: "\f14b";
+    }
+    @else if $icon == external-link-square {
+      content: "\f14c";
+    }
+    @else if $icon == share-square {
+      content: "\f14d";
+    }
+    @else if $icon == compass {
+      content: "\f14e";
+    }
+    @else if $icon == toggle-down {
+      content: "\f150";
+    }
+    @else if $icon == caret-square-o-down {
+      content: "\f150";
+    }
+    @else if $icon == toggle-up {
+      content: "\f151";
+    }
+    @else if $icon == caret-square-o-up {
+      content: "\f151";
+    }
+    @else if $icon == toggle-right {
+      content: "\f152";
+    }
+    @else if $icon == caret-square-o-right {
+      content: "\f152";
+    }
+    @else if $icon == euro {
+      content: "\f153";
+    }
+    @else if $icon == eur {
+      content: "\f153";
+    }
+    @else if $icon == gbp {
+      content: "\f154";
+    }
+    @else if $icon == dollar {
+      content: "\f155";
+    }
+    @else if $icon == usd {
+      content: "\f155";
+    }
+    @else if $icon == rupee {
+      content: "\f156";
+    }
+    @else if $icon == inr {
+      content: "\f156";
+    }
+    @else if $icon == cny {
+      content: "\f157";
+    }
+    @else if $icon == rmb {
+      content: "\f157";
+    }
+    @else if $icon == yen {
+      content: "\f157";
+    }
+    @else if $icon == jpy {
+      content: "\f157";
+    }
+    @else if $icon == ruble {
+      content: "\f158";
+    }
+    @else if $icon == rouble {
+      content: "\f158";
+    }
+    @else if $icon == rub {
+      content: "\f158";
+    }
+    @else if $icon == won {
+      content: "\f159";
+    }
+    @else if $icon == krw {
+      content: "\f159";
+    }
+    @else if $icon == bitcoin {
+      content: "\f15a";
+    }
+    @else if $icon == btc {
+      content: "\f15a";
+    }
+    @else if $icon == file {
+      content: "\f15b";
+    }
+    @else if $icon == file-text {
+      content: "\f15c";
+    }
+    @else if $icon == sort-alpha-asc {
+      content: "\f15d";
+    }
+    @else if $icon == sort-alpha-desc {
+      content: "\f15e";
+    }
+    @else if $icon == sort-amount-asc {
+      content: "\f160";
+    }
+    @else if $icon == sort-amount-desc {
+      content: "\f161";
+    }
+    @else if $icon == sort-numeric-asc {
+      content: "\f162";
+    }
+    @else if $icon == sort-numeric-desc {
+      content: "\f163";
+    }
+    @else if $icon == thumbs-up {
+      content: "\f164";
+    }
+    @else if $icon == thumbs-down {
+      content: "\f165";
+    }
+    @else if $icon == youtube-square {
+      content: "\f166";
+    }
+    @else if $icon == youtube {
+      content: "\f167";
+    }
+    @else if $icon == xing {
+      content: "\f168";
+    }
+    @else if $icon == xing-square {
+      content: "\f169";
+    }
+    @else if $icon == youtube-play {
+      content: "\f16a";
+    }
+    @else if $icon == dropbox {
+      content: "\f16b";
+    }
+    @else if $icon == stack-overflow {
+      content: "\f16c";
+    }
+    @else if $icon == instagram {
+      content: "\f16d";
+    }
+    @else if $icon == flickr {
+      content: "\f16e";
+    }
+    @else if $icon == adn {
+      content: "\f170";
+    }
+    @else if $icon == bitbucket {
+      content: "\f171";
+    }
+    @else if $icon == bitbucket-square {
+      content: "\f172";
+    }
+    @else if $icon == tumblr {
+      content: "\f173";
+    }
+    @else if $icon == tumblr-square {
+      content: "\f174";
+    }
+    @else if $icon == long-arrow-down {
+      content: "\f175";
+    }
+    @else if $icon == long-arrow-up {
+      content: "\f176";
+    }
+    @else if $icon == long-arrow-left {
+      content: "\f177";
+    }
+    @else if $icon == long-arrow-right {
+      content: "\f178";
+    }
+    @else if $icon == apple {
+      content: "\f179";
+    }
+    @else if $icon == windows {
+      content: "\f17a";
+    }
+    @else if $icon == android {
+      content: "\f17b";
+    }
+    @else if $icon == linux {
+      content: "\f17c";
+    }
+    @else if $icon == dribbble {
+      content: "\f17d";
+    }
+    @else if $icon == skype {
+      content: "\f17e";
+    }
+    @else if $icon == foursquare {
+      content: "\f180";
+    }
+    @else if $icon == trello {
+      content: "\f181";
+    }
+    @else if $icon == female {
+      content: "\f182";
+    }
+    @else if $icon == male {
+      content: "\f183";
+    }
+    @else if $icon == gittip {
+      content: "\f184";
+    }
+    @else if $icon == gratipay {
+      content: "\f184";
+    }
+    @else if $icon == sun-o {
+      content: "\f185";
+    }
+    @else if $icon == moon-o {
+      content: "\f186";
+    }
+    @else if $icon == archive {
+      content: "\f187";
+    }
+    @else if $icon == bug {
+      content: "\f188";
+    }
+    @else if $icon == vk {
+      content: "\f189";
+    }
+    @else if $icon == weibo {
+      content: "\f18a";
+    }
+    @else if $icon == renren {
+      content: "\f18b";
+    }
+    @else if $icon == pagelines {
+      content: "\f18c";
+    }
+    @else if $icon == stack-exchange {
+      content: "\f18d";
+    }
+    @else if $icon == arrow-circle-o-right {
+      content: "\f18e";
+    }
+    @else if $icon == arrow-circle-o-left {
+      content: "\f190";
+    }
+    @else if $icon == toggle-left {
+      content: "\f191";
+    }
+    @else if $icon == caret-square-o-left {
+      content: "\f191";
+    }
+    @else if $icon == dot-circle-o {
+      content: "\f192";
+    }
+    @else if $icon == wheelchair {
+      content: "\f193";
+    }
+    @else if $icon == vimeo-square {
+      content: "\f194";
+    }
+    @else if $icon == turkish-lira {
+      content: "\f195";
+    }
+    @else if $icon == try {
+      content: "\f195";
+    }
+    @else if $icon == plus-square-o {
+      content: "\f196";
+    }
+    @else if $icon == space-shuttle {
+      content: "\f197";
+    }
+    @else if $icon == slack {
+      content: "\f198";
+    }
+    @else if $icon == envelope-square {
+      content: "\f199";
+    }
+    @else if $icon == wordpress {
+      content: "\f19a";
+    }
+    @else if $icon == openid {
+      content: "\f19b";
+    }
+    @else if $icon == institution {
+      content: "\f19c";
+    }
+    @else if $icon == bank {
+      content: "\f19c";
+    }
+    @else if $icon == university {
+      content: "\f19c";
+    }
+    @else if $icon == mortar-board {
+      content: "\f19d";
+    }
+    @else if $icon == graduation-cap {
+      content: "\f19d";
+    }
+    @else if $icon == yahoo {
+      content: "\f19e";
+    }
+    @else if $icon == google {
+      content: "\f1a0";
+    }
+    @else if $icon == reddit {
+      content: "\f1a1";
+    }
+    @else if $icon == reddit-square {
+      content: "\f1a2";
+    }
+    @else if $icon == stumbleupon-circle {
+      content: "\f1a3";
+    }
+    @else if $icon == stumbleupon {
+      content: "\f1a4";
+    }
+    @else if $icon == delicious {
+      content: "\f1a5";
+    }
+    @else if $icon == digg {
+      content: "\f1a6";
+    }
+    @else if $icon == pied-piper {
+      content: "\f1a7";
+    }
+    @else if $icon == pied-piper-alt {
+      content: "\f1a8";
+    }
+    @else if $icon == drupal {
+      content: "\f1a9";
+    }
+    @else if $icon == joomla {
+      content: "\f1aa";
+    }
+    @else if $icon == language {
+      content: "\f1ab";
+    }
+    @else if $icon == fax {
+      content: "\f1ac";
+    }
+    @else if $icon == building {
+      content: "\f1ad";
+    }
+    @else if $icon == child {
+      content: "\f1ae";
+    }
+    @else if $icon == paw {
+      content: "\f1b0";
+    }
+    @else if $icon == spoon {
+      content: "\f1b1";
+    }
+    @else if $icon == cube {
+      content: "\f1b2";
+    }
+    @else if $icon == cubes {
+      content: "\f1b3";
+    }
+    @else if $icon == behance {
+      content: "\f1b4";
+    }
+    @else if $icon == behance-square {
+      content: "\f1b5";
+    }
+    @else if $icon == steam {
+      content: "\f1b6";
+    }
+    @else if $icon == steam-square {
+      content: "\f1b7";
+    }
+    @else if $icon == recycle {
+      content: "\f1b8";
+    }
+    @else if $icon == automobile {
+      content: "\f1b9";
+    }
+    @else if $icon == car {
+      content: "\f1b9";
+    }
+    @else if $icon == cab {
+      content: "\f1ba";
+    }
+    @else if $icon == taxi {
+      content: "\f1ba";
+    }
+    @else if $icon == tree {
+      content: "\f1bb";
+    }
+    @else if $icon == spotify {
+      content: "\f1bc";
+    }
+    @else if $icon == deviantart {
+      content: "\f1bd";
+    }
+    @else if $icon == soundcloud {
+      content: "\f1be";
+    }
+    @else if $icon == database {
+      content: "\f1c0";
+    }
+    @else if $icon == file-pdf-o {
+      content: "\f1c1";
+    }
+    @else if $icon == file-word-o {
+      content: "\f1c2";
+    }
+    @else if $icon == file-excel-o {
+      content: "\f1c3";
+    }
+    @else if $icon == file-powerpoint-o {
+      content: "\f1c4";
+    }
+    @else if $icon == file-photo-o {
+      content: "\f1c5";
+    }
+    @else if $icon == file-picture-o {
+      content: "\f1c5";
+    }
+    @else if $icon == file-image-o {
+      content: "\f1c5";
+    }
+    @else if $icon == file-zip-o {
+      content: "\f1c6";
+    }
+    @else if $icon == file-archive-o {
+      content: "\f1c6";
+    }
+    @else if $icon == file-sound-o {
+      content: "\f1c7";
+    }
+    @else if $icon == file-audio-o {
+      content: "\f1c7";
+    }
+    @else if $icon == file-movie-o {
+      content: "\f1c8";
+    }
+    @else if $icon == file-video-o {
+      content: "\f1c8";
+    }
+    @else if $icon == file-code-o {
+      content: "\f1c9";
+    }
+    @else if $icon == vine {
+      content: "\f1ca";
+    }
+    @else if $icon == codepen {
+      content: "\f1cb";
+    }
+    @else if $icon == jsfiddle {
+      content: "\f1cc";
+    }
+    @else if $icon == life-bouy {
+      content: "\f1cd";
+    }
+    @else if $icon == life-buoy {
+      content: "\f1cd";
+    }
+    @else if $icon == life-saver {
+      content: "\f1cd";
+    }
+    @else if $icon == support {
+      content: "\f1cd";
+    }
+    @else if $icon == life-ring {
+      content: "\f1cd";
+    }
+    @else if $icon == circle-o-notch {
+      content: "\f1ce";
+    }
+    @else if $icon == ra {
+      content: "\f1d0";
+    }
+    @else if $icon == rebel {
+      content: "\f1d0";
+    }
+    @else if $icon == ge {
+      content: "\f1d1";
+    }
+    @else if $icon == empire {
+      content: "\f1d1";
+    }
+    @else if $icon == git-square {
+      content: "\f1d2";
+    }
+    @else if $icon == git {
+      content: "\f1d3";
+    }
+    @else if $icon == hacker-news {
+      content: "\f1d4";
+    }
+    @else if $icon == tencent-weibo {
+      content: "\f1d5";
+    }
+    @else if $icon == qq {
+      content: "\f1d6";
+    }
+    @else if $icon == wechat {
+      content: "\f1d7";
+    }
+    @else if $icon == weixin {
+      content: "\f1d7";
+    }
+    @else if $icon == send {
+      content: "\f1d8";
+    }
+    @else if $icon == paper-plane {
+      content: "\f1d8";
+    }
+    @else if $icon == send-o {
+      content: "\f1d9";
+    }
+    @else if $icon == paper-plane-o {
+      content: "\f1d9";
+    }
+    @else if $icon == history {
+      content: "\f1da";
+    }
+    @else if $icon == genderless {
+      content: "\f1db";
+    }
+    @else if $icon == circle-thin {
+      content: "\f1db";
+    }
+    @else if $icon == header {
+      content: "\f1dc";
+    }
+    @else if $icon == paragraph {
+      content: "\f1dd";
+    }
+    @else if $icon == sliders {
+      content: "\f1de";
+    }
+    @else if $icon == share-alt {
+      content: "\f1e0";
+    }
+    @else if $icon == share-alt-square {
+      content: "\f1e1";
+    }
+    @else if $icon == bomb {
+      content: "\f1e2";
+    }
+    @else if $icon == soccer-ball-o {
+      content: "\f1e3";
+    }
+    @else if $icon == futbol-o {
+      content: "\f1e3";
+    }
+    @else if $icon == tty {
+      content: "\f1e4";
+    }
+    @else if $icon == binoculars {
+      content: "\f1e5";
+    }
+    @else if $icon == plug {
+      content: "\f1e6";
+    }
+    @else if $icon == slideshare {
+      content: "\f1e7";
+    }
+    @else if $icon == twitch {
+      content: "\f1e8";
+    }
+    @else if $icon == yelp {
+      content: "\f1e9";
+    }
+    @else if $icon == newspaper-o {
+      content: "\f1ea";
+    }
+    @else if $icon == wifi {
+      content: "\f1eb";
+    }
+    @else if $icon == calculator {
+      content: "\f1ec";
+    }
+    @else if $icon == paypal {
+      content: "\f1ed";
+    }
+    @else if $icon == google-wallet {
+      content: "\f1ee";
+    }
+    @else if $icon == cc-visa {
+      content: "\f1f0";
+    }
+    @else if $icon == cc-mastercard {
+      content: "\f1f1";
+    }
+    @else if $icon == cc-discover {
+      content: "\f1f2";
+    }
+    @else if $icon == cc-amex {
+      content: "\f1f3";
+    }
+    @else if $icon == cc-paypal {
+      content: "\f1f4";
+    }
+    @else if $icon == cc-stripe {
+      content: "\f1f5";
+    }
+    @else if $icon == bell-slash {
+      content: "\f1f6";
+    }
+    @else if $icon == bell-slash-o {
+      content: "\f1f7";
+    }
+    @else if $icon == trash {
+      content: "\f1f8";
+    }
+    @else if $icon == copyright {
+      content: "\f1f9";
+    }
+    @else if $icon == at {
+      content: "\f1fa";
+    }
+    @else if $icon == eyedropper {
+      content: "\f1fb";
+    }
+    @else if $icon == paint-brush {
+      content: "\f1fc";
+    }
+    @else if $icon == birthday-cake {
+      content: "\f1fd";
+    }
+    @else if $icon == area-chart {
+      content: "\f1fe";
+    }
+    @else if $icon == pie-chart {
+      content: "\f200";
+    }
+    @else if $icon == line-chart {
+      content: "\f201";
+    }
+    @else if $icon == lastfm {
+      content: "\f202";
+    }
+    @else if $icon == lastfm-square {
+      content: "\f203";
+    }
+    @else if $icon == toggle-off {
+      content: "\f204";
+    }
+    @else if $icon == toggle-on {
+      content: "\f205";
+    }
+    @else if $icon == bicycle {
+      content: "\f206";
+    }
+    @else if $icon == bus {
+      content: "\f207";
+    }
+    @else if $icon == ioxhost {
+      content: "\f208";
+    }
+    @else if $icon == angellist {
+      content: "\f209";
+    }
+    @else if $icon == cc {
+      content: "\f20a";
+    }
+    @else if $icon == shekel {
+      content: "\f20b";
+    }
+    @else if $icon == sheqel {
+      content: "\f20b";
+    }
+    @else if $icon == ils {
+      content: "\f20b";
+    }
+    @else if $icon == meanpath {
+      content: "\f20c";
+    }
+    @else if $icon == buysellads {
+      content: "\f20d";
+    }
+    @else if $icon == connectdevelop {
+      content: "\f20e";
+    }
+    @else if $icon == dashcube {
+      content: "\f210";
+    }
+    @else if $icon == forumbee {
+      content: "\f211";
+    }
+    @else if $icon == leanpub {
+      content: "\f212";
+    }
+    @else if $icon == sellsy {
+      content: "\f213";
+    }
+    @else if $icon == shirtsinbulk {
+      content: "\f214";
+    }
+    @else if $icon == simplybuilt {
+      content: "\f215";
+    }
+    @else if $icon == skyatlas {
+      content: "\f216";
+    }
+    @else if $icon == cart-plus {
+      content: "\f217";
+    }
+    @else if $icon == cart-arrow-down {
+      content: "\f218";
+    }
+    @else if $icon == diamond {
+      content: "\f219";
+    }
+    @else if $icon == ship {
+      content: "\f21a";
+    }
+    @else if $icon == user-secret {
+      content: "\f21b";
+    }
+    @else if $icon == motorcycle {
+      content: "\f21c";
+    }
+    @else if $icon == street-view {
+      content: "\f21d";
+    }
+    @else if $icon == heartbeat {
+      content: "\f21e";
+    }
+    @else if $icon == venus {
+      content: "\f221";
+    }
+    @else if $icon == mars {
+      content: "\f222";
+    }
+    @else if $icon == mercury {
+      content: "\f223";
+    }
+    @else if $icon == transgender {
+      content: "\f224";
+    }
+    @else if $icon == transgender-alt {
+      content: "\f225";
+    }
+    @else if $icon == venus-double {
+      content: "\f226";
+    }
+    @else if $icon == mars-double {
+      content: "\f227";
+    }
+    @else if $icon == venus-mars {
+      content: "\f228";
+    }
+    @else if $icon == mars-stroke {
+      content: "\f229";
+    }
+    @else if $icon == mars-stroke-v {
+      content: "\f22a";
+    }
+    @else if $icon == mars-stroke-h {
+      content: "\f22b";
+    }
+    @else if $icon == neuter {
+      content: "\f22c";
+    }
+    @else if $icon == facebook-official {
+      content: "\f230";
+    }
+    @else if $icon == pinterest-p {
+      content: "\f231";
+    }
+    @else if $icon == whatsapp {
+      content: "\f232";
+    }
+    @else if $icon == server {
+      content: "\f233";
+    }
+    @else if $icon == user-plus {
+      content: "\f234";
+    }
+    @else if $icon == user-times {
+      content: "\f235";
+    }
+    @else if $icon == hotel {
+      content: "\f236";
+    }
+    @else if $icon == bed {
+      content: "\f236";
+    }
+    @else if $icon == viacoin {
+      content: "\f237";
+    }
+    @else if $icon == train {
+      content: "\f238";
+    }
+    @else if $icon == subway {
+      content: "\f239";
+    }
+    @else if $icon == medium {
+      content: "\f23a";
+    }
+  }
+}
+
+@mixin fa-size($size) {
+  font-size: $size;
+}
+
+@mixin fa-color($color) {
+  color: $color;
+}
+
+@mixin fa-left($left) {
+  padding-left: $left;
+}
+
+@mixin fa-right($right) {
+  padding-right: $right;
+}
+
+@mixin fa-align($align) {
+  vertical-align: $align;
+}
+
+@mixin fa-rotate($rotate) {
+  -webkit-transform: rotate($rotate);
+  -ms-transform: rotate($rotate);
+  transform: rotate($rotate);
+}
+
+@mixin fa-flip($flip) {
+  @if $flip == horizontal {
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
+  @else if $flip == vertical {
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+  }
+}
+
+@mixin fa-spin($spin: null) {
+  @if $spin == null {
+    @-webkit-keyframes fa-spin{
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+      }
+    }
+    @keyframes fa-spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+      }
+    }
+  }
+  @else {
+    -webkit-animation: fa-spin #{$spin} infinite linear;
+    animation: fa-spin #{$spin} infinite linear;
+  }
+}
