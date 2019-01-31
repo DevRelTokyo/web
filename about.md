@@ -18,7 +18,7 @@ DevRel Meetup in Tokyoは定期的にオフラインイベントを行ってい�
 
 オンラインではSlackにてコミュニティを作っています。280人以上の方が参加しています。英語でのコミュニケーションも可能です。
 
-[Slackで参加する](http://slack-inviter.herokuapp.com)
+[Slackで参加する](https://bit.ly/devreljp-invite)
 
 [Facebookページ](http://facebook.com/devreltokyo/)、[Twitterアカウント](http://twitter.com/devrelTokyo)もあります。
 
