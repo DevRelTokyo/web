@@ -54,4 +54,14 @@ $(document).ready(function() {
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
   });
+
+  console.log('here');
+  for (let event of $('.dtstart')) {
+    const d = new Date(event.innerText.replace(/([0-9]{4})([0-9]{2})([0-9]{2})T([0-9]{2})([0-9]{2})([0-9]{2})/, '$1-$2-$3 $4:$5:$6'));
+    console.log(d, d < new Date())
+    if (d < new Date()) {
+      $(event).parent('.event').find('.event-title').css({ color: '#bbb' });
+      $(event).parent('.event').css({ color: '#bbb' });
+    }
+  }
 });

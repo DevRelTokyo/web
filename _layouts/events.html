@@ -1,0 +1,44 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+  {% include nav.html %}
+  <!-- Header -->
+  <header class="header flex" role="banner">
+    <div class="container animated fadeIn">
+      <div class="row">
+        <h3 class="title">
+          <a class="zoombtn" href="https://devrel.connpass.com/">
+        	   <p style="font-size:1.2rem;font-weight:300">最近のイベント</p>
+          </a>
+        </h3>
+        <hr class="hr-line">
+        <div class="content">
+          <div class="post-list">
+            {% for event in site.data.events %} 
+              <ul>
+                  <li class="wow fadeInLeft event" data-wow-duration="1.5s">
+                      <a class="zoombtn event-title" href="{{ event['URL;VALUE=URI'] }}" target="_blank">{{ event['SUMMARY'] }}</a>
+                      <div><i class="fas fa-map-marker-alt"></i> {{ event['LOCATION'] }}</div>
+                      <div><i class="far fa-clock"></i> {{ event['DTSTART;TZID=Asia/Tokyo'] | date: '%Y年%m月%d日 %H:%M' }}</div>
+                      <div class="dtstart" style="display:none">{{ event['DTSTART;TZID=Asia/Tokyo'] }}</div>
+                  </li>
+              </ul>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  {% include scripts.html %}
+  
+</body>
+</html>

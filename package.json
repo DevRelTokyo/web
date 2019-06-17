@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ical.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ical": "node ical.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevRelMeetupTokyo/DevRelMeetupTokyo.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevRelMeetupTokyo/DevRelMeetupTokyo.github.io/issues"
+  },
+  "homepage": "https://github.com/DevRelMeetupTokyo/DevRelMeetupTokyo.github.io#readme",
+  "dependencies": {
+    "ical2json": "^1.2.0",
+    "js-yaml": "^3.13.1",
+    "json2yaml": "^1.1.0",
+    "superagent": "^5.1.0"
+  }
+}
