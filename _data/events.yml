@@ -1,8 +1,17 @@
 ---
   - 
+    UID: "132576@devrel.connpass.com"
+    SEQUENCE: "0"
+    DTSTAMP: "20190620T044907Z"
+    DTSTART;TZID=Asia/Tokyo: "20190907T130000"
+    DTEND;TZID=Asia/Tokyo: "20190907T210000"
+    SUMMARY: "DevRel/Japan Conference 2019"
+    LOCATION: "東京都中央区 日本橋２丁目７-１ 日本橋 タワー ２７階"
+    URL;VALUE=URI: "https://devrel.connpass.com/event/132576/"
+  - 
     UID: "134434@devrel.connpass.com"
     SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
+    DTSTAMP: "20190620T044907Z"
     DTSTART;TZID=Asia/Tokyo: "20190703T190000"
     DTEND;TZID=Asia/Tokyo: "20190703T220000"
     SUMMARY: "DevRel Meetup in Tokyo #43 〜ファシリテーション〜"
@@ -11,7 +20,7 @@
   - 
     UID: "133456@devrel.connpass.com"
     SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
+    DTSTAMP: "20190620T044907Z"
     DTSTART;TZID=Asia/Tokyo: "20190628T190000"
     DTEND;TZID=Asia/Tokyo: "20190628T220000"
     SUMMARY: "DevRel/Community #3"
@@ -20,7 +29,7 @@
   - 
     UID: "130875@devrel.connpass.com"
     SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
+    DTSTAMP: "20190620T044907Z"
     DTSTART;TZID=Asia/Tokyo: "20190603T190000"
     DTEND;TZID=Asia/Tokyo: "20190603T220000"
     SUMMARY: "DevRel Meetup in Tokyo #42 〜しくじり先生〜"
@@ -29,7 +38,7 @@
   - 
     UID: "129051@devrel.connpass.com"
     SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
+    DTSTAMP: "20190620T044907Z"
     DTSTART;TZID=Asia/Tokyo: "20190523T190000"
     DTEND;TZID=Asia/Tokyo: "20190523T220000"
     SUMMARY: "DevRel/Beginners #5"
@@ -38,7 +47,7 @@
   - 
     UID: "127077@devrel.connpass.com"
     SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
+    DTSTAMP: "20190620T044907Z"
     DTSTART;TZID=Asia/Tokyo: "20190508T190000"
     DTEND;TZID=Asia/Tokyo: "20190508T220000"
     SUMMARY: "DevRel Meetup in Tokyo #41 〜書籍の企画から執筆、編集まで〜"
@@ -47,7 +56,7 @@
   - 
     UID: "124637@devrel.connpass.com"
     SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
+    DTSTAMP: "20190620T044907Z"
     DTSTART;TZID=Asia/Tokyo: "20190423T190000"
     DTEND;TZID=Asia/Tokyo: "20190423T214500"
     SUMMARY: "DevRel/Community #2"
@@ -56,7 +65,7 @@
   - 
     UID: "124330@devrel.connpass.com"
     SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
+    DTSTAMP: "20190620T044907Z"
     DTSTART;TZID=Asia/Tokyo: "20190418T190000"
     DTEND;TZID=Asia/Tokyo: "20190418T220000"
     SUMMARY: "DevRel/Beginners #4"
@@ -65,7 +74,7 @@
   - 
     UID: "124022@devrel.connpass.com"
     SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
+    DTSTAMP: "20190620T044907Z"
     DTSTART;TZID=Asia/Tokyo: "20190403T190000"
     DTEND;TZID=Asia/Tokyo: "20190403T220000"
     SUMMARY: "DevRel Meetup in Tokyo #40 〜オウンドメディア成功の秘訣〜"
@@ -74,18 +83,9 @@
   - 
     UID: "122333@devrel.connpass.com"
     SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
+    DTSTAMP: "20190620T044907Z"
     DTSTART;TZID=Asia/Tokyo: "20190318T190000"
     DTEND;TZID=Asia/Tokyo: "20190318T220000"
     SUMMARY: "DevRel Meetup in Tokyo #39 〜DevRelCon報告会〜"
     LOCATION: "東京都渋谷区桜丘町29-35"
     URL;VALUE=URI: "https://devrel.connpass.com/event/122333/"
-  - 
-    UID: "118791@devrel.connpass.com"
-    SEQUENCE: "0"
-    DTSTAMP: "20190617T023457Z"
-    DTSTART;TZID=Asia/Tokyo: "20190301T190000"
-    DTEND;TZID=Asia/Tokyo: "20190301T220000"
-    SUMMARY: "DevRel/Beginners #3"
-    LOCATION: "東京都渋谷区代々木2-7-6ＧＳハイム佐藤ビル７０１号室"
-    URL;VALUE=URI: "https://devrel.connpass.com/event/118791/"
