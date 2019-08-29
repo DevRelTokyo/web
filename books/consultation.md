@@ -4,7 +4,7 @@ title: DevRelお悩み解決室
 permalink: /books/consultation
 ---
 
-![](/assets/img/cunsultation.jpg)
+![](/assets/img/books/cunsultation.jpg)
 
 ## 書籍概要（冒頭より抜粋）
 
