@@ -124,6 +124,7 @@ img {
 	width: 250px;
 }
 .author-photo {
+	width: 90%;
 }
 .image-right {
     float: right;
@@ -204,4 +205,11 @@ kbd {
     text-align: center;
     font-weight: 300;
     margin-bottom: 10px;
+}
+
+div.event-title {
+	font-size: 1.25rem;
+	text-decoration: none;
+	color: #282828;
+	font-weight: bolder;	
 }
