@@ -21,7 +21,6 @@
     UID: "144266@devrel.connpass.com"
     SEQUENCE: "0"
     DTSTAMP: "20190910T010225Z"
-    DTSTART;TZID=Asia/Tokyo: "20191002T190000"
     DTEND;TZID=Asia/Tokyo: "20191002T220000"
     SUMMARY: "DevRel Meetup in Tokyo #46 〜DevRelファーストステップ〜"
     LOCATION: "東京都渋谷区宇田川町28-4 三井住友銀行 渋谷西ビル6階"

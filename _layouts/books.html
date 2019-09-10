@@ -1,0 +1,59 @@
+---
+layout: compress
+title: 書籍について
+permalink: /books/
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include nav.html %}
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title">
+                    <h1>{{ page.title }}</h1>
+                    <p>DevRel Meetupで執筆した書籍を紹介します</p>
+                </div>
+                <div class="post-list">
+                  <ul>
+                    {% for book in site.data.books %} 
+                      <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                        <img src="/assets/img/books/{{ book.img }}" style="border: 1px grey solid;"/>
+                        {% if book.detail %}
+                          <a class="zoombtn event-title" href="{{ book.detail }}">{{ book.title }}</a>
+                        {% else %}
+                          <div class="zoombtn event-title">{{ book.title }}</div>
+                        {% endif %}
+                        <p>{{ book.description | truncate: 100 }}</p>
+                        {% if book.amazon %}
+                          <a href="{{ book.amazon }}" target="_blank" class="btn zoombtn">
+                            <i class="fab fa-amazon"></i>
+                          </a>
+                        {% endif %}
+                        {% if book.detail %}
+                          <a href="{{ book.detail }}" class="btn zoombtn">
+                            詳細を見る
+                          </a>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                <a class="btn zoombtn" href="{{site.url}}">
+                    <i class="fa fa-home"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    {% include scripts.html %}
+    <script src="{{ site.url }}/assets/js/wow.min.js"></script>
+    <script type="text/javascript">(new WOW).init();</script>
+</body>
+</html>
