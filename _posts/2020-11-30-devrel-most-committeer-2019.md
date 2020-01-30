@@ -7,6 +7,8 @@ tags: [発表]
 comments: true
 ---
 
+![](/assets/img/blog/committee-2019.jpg)
+
 昨年よりDevRel Meetupの新しい施策として、 **Most DevRel Committeer** を開始しました。これは次のような方を表彰する制度です。
 
 ```
