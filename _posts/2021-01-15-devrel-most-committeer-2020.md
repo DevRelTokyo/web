@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Most DevRel Committeer 2020の発表！
+title: Most DevRel Committer 2020の発表！
 date: 2021-01-15 00:00
-excerpt: 昨年よりDevRel Meetupの新しい施策として、 **Most DevRel Committeer** を開始しました。2020年受賞者を発表します！
+excerpt: 昨年よりDevRel Meetupの新しい施策として、 **Most DevRel Committer** を開始しました。2020年受賞者を発表します！
 tags: [発表]
 comments: true
 ---
 
 ![](/assets/img/blog/committee-2020.jpg)
 
-2019年よりはじまった **Most DevRel Committeer** ですが、2020年もまた実施されました。こちらは次のような方たちを表彰する制度です。
+2019年よりはじまった **Most DevRel Committer** ですが、2020年もまた実施されました。こちらは次のような方たちを表彰する制度です。
 
 ```
 1年を通じて、最もDevRel Meetupの発展、拡大に貢献した人
