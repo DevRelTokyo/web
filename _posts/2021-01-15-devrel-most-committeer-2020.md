@@ -44,6 +44,8 @@ comments: true
 
 主な受賞理由として、すべてのカンファレンスへの運営としての参加、さらにすべての発刊された書籍の執筆が挙げられます。Twilioへの転職後、コロナ禍において配信に力を入れており、一冊で分かる！オンラインイベントのはじめかたでもその知見が十分に反映されています。DevRel/Asia 2020ではアジア2トラックのトラックオーナーとしてスピーカーの調整など、負荷の高い役割を担っていました。
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">⁦<a href="https://twitter.com/devrelTokyo?ref_src=twsrc%5Etfw">@devrelTokyo</a>⁩ から2020年のMost DevRel Committerとして表彰いただき、先ほど記念の盾を頂きました。<br>ありがとうございます。<br><br>本業も含めて今年も頑張ります！<a href="https://twitter.com/hashtag/devreljp?src=hash&amp;ref_src=twsrc%5Etfw">#devreljp</a> <a href="https://twitter.com/hashtag/devrel?src=hash&amp;ref_src=twsrc%5Etfw">#devrel</a> <a href="https://t.co/42RWuIy4kU">pic.twitter.com/42RWuIy4kU</a></p>&mdash; Daizen Ikehara (@Neri78) <a href="https://twitter.com/Neri78/status/1349983050747138048?ref_src=twsrc%5Etfw">January 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## 萩野たいじさん@日本アイ・ビー・エム
 
 <img src="https://devrel.tokyo/japan-2019/assets/img/speakers/taiji.jpg" width="200px" />
@@ -55,6 +57,8 @@ comments: true
 <img src="https://devrel.dev/asia-2020/assets/images/organizers/odasho.jpg" width="200px" />
 
 Most DevRel Committeerの名付け親は小田祥平さんです。常日頃からカンファレンスの運営に関わり続けており、2020年はさらに両書籍の執筆にも参画されています。DevRel/Asia 2020では司会も担当しています。Microsoftでも多数のコミュニティに関わりつつ、DevRel Meetupでも運営メンバーとして長く関わり続けています。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">年間で最もDeveloper Relationsに貢献した人に送られる Most <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a> Committer 2020を受賞しましたぁぁぁぁぁ‼︎(´Д` )嬉<br><br>ありがとうございます‼︎ ありがとうございます‼︎号泣<br>これからもがんばる‼︎d(´Д` )♪<a href="https://twitter.com/hashtag/devreljp?src=hash&amp;ref_src=twsrc%5Etfw">#devreljp</a> <a href="https://t.co/ZRZXmJJ0Ir">pic.twitter.com/ZRZXmJJ0Ir</a></p>&mdash; odasho@Microsoft (@MS_odasho) <a href="https://twitter.com/MS_odasho/status/1350009958130044929?ref_src=twsrc%5Etfw">January 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 川下太郎さん@ソニー
 
