@@ -52,6 +52,8 @@ comments: true
 
 萩野たいじさんは唯一の2年連続受賞となりました。DevRel Meetupはもちろん、DevRel/Asia 2020のロゴデザイン、オープニング動画の作成などデザイン面のサポートを一人で行っています。カンファレンスはすべての運営に参加し、アジア1トラックのトラックオーナーを担当しています。書籍は12月末に発刊された英語で広がる開発者のキャリアにて多くの誌面を書かれています。
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I got the award Most DevRel Committer 2020! Thanks all!<a href="https://t.co/LKfjkcDyb0">https://t.co/LKfjkcDyb0</a><a href="https://twitter.com/hashtag/devrel?src=hash&amp;ref_src=twsrc%5Etfw">#devrel</a> <a href="https://twitter.com/hashtag/devreljp?src=hash&amp;ref_src=twsrc%5Etfw">#devreljp</a> <a href="https://t.co/o8rxSm61ht">pic.twitter.com/o8rxSm61ht</a></p>&mdash; Taiji (萩野たいじ) (@taiponrock) <a href="https://twitter.com/taiponrock/status/1350022571178168321?ref_src=twsrc%5Etfw">January 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## 小田祥平さん@Microsoft Japan
 
 <img src="https://devrel.dev/asia-2020/assets/images/organizers/odasho.jpg" width="200px" />
