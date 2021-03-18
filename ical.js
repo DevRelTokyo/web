@@ -1,13 +1,19 @@
-const ical2json = require("ical2json");
 const request = require('superagent');
 const fs = require('fs');
 const YAML = require('json2yaml')
 const {promisify} = require('util');
 
 (async () => {
-  const res = await request.get('http://127.0.0.1:3000/?name=devrel').send();
-  const json = ical2json.convert(res.text);
-  await promisify(fs.writeFile)('./_data/events.yml', YAML.stringify(json.VCALENDAR[0].VEVENT));
-  console.log('Done');
+  const res = await request.get('https://connpass.com/api/v1/event/?series_id=1384').send();
+  const json = JSON.parse(res.text).events;
+  json.sort((a, b) => {
+    const da = new Date(a.started_at);
+    const db = new Date(b.started_at);
+    if( da < db ) return 1;
+    if( da > db ) return -1;
+    return 0;
+  });
+  await promisify(fs.writeFile)('./_data/events.json', JSON.stringify(json));
+  // console.log('Done');
 })();
 

@@ -26,10 +26,10 @@ layout: compress
             {% for event in site.data.events %} 
               <ul>
                   <li class="wow fadeInLeft event" data-wow-duration="1.5s">
-                      <a class="zoombtn event-title" href="{{ event['URL;VALUE=URI'] }}" target="_blank">{{ event['SUMMARY'] }}</a>
-                      <div><i class="fas fa-map-marker-alt"></i> {{ event['LOCATION'] }}</div>
-                      <div><i class="far fa-clock"></i> {{ event['DTSTART;TZID=Asia/Tokyo'] | date: '%Y年%m月%d日 %H:%M' }}</div>
-                      <div class="dtstart" style="display:none">{{ event['DTSTART;TZID=Asia/Tokyo'] }}</div>
+                      <a class="zoombtn event-title" href="{{ event.event_url }}" target="_blank">{{ event.title }}</a>
+                      <div><i class="fas fa-map-marker-alt"></i> {{ event.place }}</div>
+                      <div><i class="far fa-clock"></i> {{ event.started_at | date: '%Y年%m月%d日 %H:%M' }}</div>
+                      <div class="dtstart" style="display:none">{{ event.started_at }}</div>
                   </li>
               </ul>
             {% endfor %}

@@ -8,3 +8,5 @@ vendor/
 vendor.nosync
 vendor
 _site.nosync/
+node_modules
+node_modules.nosync/

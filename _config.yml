@@ -76,3 +76,21 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+
+
+podcast_url: /podcast.xml
+
+podcast:
+  title: DevRel/Radio
+  description: DevRel/Radioは耳で楽しめるDevRelコンテンツです。毎週水曜日17時からリアルタイム配信しています。
+  url: /podcast.xml
+  author: DevRel/Radio
+  email: info@devrel.tokyo
+  logo: https://devrel.tokyo/assets/img/new-org-logo.png
+  language: ja
+  category: Marketing
+  subcategory: []
+  type: episodic
+  explicit: false
+  complete: no
+  block: yes
