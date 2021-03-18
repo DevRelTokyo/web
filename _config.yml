@@ -88,8 +88,8 @@ podcast:
   email: info@devrel.tokyo
   logo: https://devrel.tokyo/assets/img/new-org-logo.png
   language: ja
-  category: Marketing
-  subcategory: []
+  category: Business
+  subcategory: [Marketing]
   type: episodic
   explicit: false
   complete: no
