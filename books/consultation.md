@@ -1,10 +1,10 @@
 ---
 layout: page
-title: DevRelお悩み解決室
+title: DevRelお悩み解決室/開発者向けマーケティング DevRel Q&A
 permalink: /books/consultation
 ---
 
-![](/assets/img/books/cunsultation.jpg)
+![](/assets/img/books/devrel-qa.jpg)
 
 ## 書籍概要（冒頭より抜粋）
 
@@ -17,6 +17,34 @@ DevRelが徐々に知られていく中、DevRelをどう進めれば良いで�
 ## 執筆時期
 
 2019年06月
+
+## 購入
+
+### 同人誌版
+
+書籍名はDevRelお悩み解決室になります。
+
+![](/assets/img/books/cunsultation.jpg)
+
+- [紙版](https://booth.pm/ja/items/1573491)
+- [電子版](https://booth.pm/ja/items/1563350)
+
+### 商業出版版
+
+書籍名は開発者向けマーケティング DevRel Q&Aになります。
+
+![](/assets/img/books/devrel-qa.jpg)
+
+- [Amazon](https://www.amazon.co.jp/dp/B0814N5WLW)
+- [楽天ブックス](https://books.rakuten.co.jp/rk/d29b823ab7e133dcb93e36f8dfba8554/?l-id=search-c-item-text-01)
+- [‎Apple Books](https://books.apple.com/jp/book/%E9%96%8B%E7%99%BA%E8%80%85%E5%90%91%E3%81%91%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-devrel-q-a/id1486737477?mt=11)
+- [紀伊國屋書店](https://www.kinokuniya.co.jp/f/dsg-08-EK-0784071)
+- [Google Play](https://play.google.com/store/books/details/%E4%B8%AD%E6%B4%A5%E5%B7%9D_%E7%AF%A4%E5%8F%B8_%E9%96%8B%E7%99%BA%E8%80%85%E5%90%91%E3%81%91%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0_DevRel_Q_A?id=ULK8DwAAQBAJ)
+- [honto](https://honto.jp/ebook/pd_29994908.html)
+- [Reader Store](https://ebookstore.sony.jp/item/LT000122359000993924/)
+- [ブックライブ](https://booklive.jp/product/index/title_id/679018/vol_no/001)
+- [BOOK☆WALKER](https://bookwalker.jp/deb56d2a5f-8ca5-4bcb-80a2-0ad06baae40c/)
+- [達人出版会](https://tatsu-zine.com/books/devrel-q-and-a)
 
 ## 初出
 
