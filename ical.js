@@ -4,7 +4,10 @@ const YAML = require('json2yaml')
 const {promisify} = require('util');
 
 (async () => {
-  const res = await request.get('https://connpass.com/api/v1/event/?series_id=1384').send();
+    const res = await request
+	  .get('https://connpass.com/api/v1/event/?series_id=1384')
+          .set('User-Agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36')
+	  .send();
   const json = JSON.parse(res.text).events;
   json.sort((a, b) => {
     const da = new Date(a.started_at);
