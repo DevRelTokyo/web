@@ -7,7 +7,7 @@ season: 1
 episode: 11
 episodeType: full
 explicit: false # true | false
-audio: https://devrel.tokyo/podcast/DevRel-Radio-11.mp3
+audio: https://drive.google.com/uc?id=1md2K8GHLduMok-G-rito5g-QavQn28ME
 length: 3723
 podcast: true
 ---

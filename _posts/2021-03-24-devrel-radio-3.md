@@ -7,7 +7,7 @@ season: 1
 episode: 3
 episodeType: full
 explicit: false # true | false
-audio: https://devrel.tokyo/podcast/DevRel-Radio-3.mp3
+audio: https://drive.google.com/uc?id=1fQQ7FnFV8tStsvYyeH8DYSX74SzRCQUg
 length: 3647
 podcast: true
 ---
