@@ -12,3 +12,5 @@ node_modules
 node_modules.nosync/
 .jekyll-cache/
 .icloud
+*.icloud
+podcast
