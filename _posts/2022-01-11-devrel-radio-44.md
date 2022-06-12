@@ -1,10 +1,10 @@
 ---
 layout: podcast
 categories: podcast # podcast
-title: "DevRel/Radio #43 〜DevRel活動振り返り〜"
+title: "DevRel/Radio #44 〜DevRel活動振り返り〜"
 author: DevRel/Radio
 season: 1
-episode: 43
+episode: 44
 episodeType: full
 explicit: false # true | false
 audio: https://drive.google.com/uc?id=1UbiPGpVSWyTXa3oCXTbNdFWriOyOC2we
