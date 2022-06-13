@@ -18,7 +18,7 @@ DevRel Meetup in Tokyoは定期的にオフラインイベントを行ってい�
 
 [DevRel Meetup in Tokyo - connpass](https://devrel.connpass.com/)
 
-[イベントの内容はYouTubeチャンネルにて配信](https://www.youtube.com/channel/UC0ZgE2vnoQfTe0O3dufsb1w)しています（不定期）。
+[イベントの内容はYouTubeチャンネルにて配信](https://www.youtube.com/c/devrelmeetup)しています（不定期）。
 
 オンラインではSlackにてコミュニティを作っています。450人以上の方が参加しています。英語でのコミュニケーションも可能です。
 
