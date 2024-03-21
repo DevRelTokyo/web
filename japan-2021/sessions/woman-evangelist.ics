@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:4d5c9fdf-2af2-4d59-9afa-fba2b501a7ed
+DTSTART:20211113T164500
+DTEND:20211113T174500
+DESCRIPTION:トラックB / 16:45〜17:45\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/woman-evangelist/\n\n🌟 Ask the Speaker
+ s\nhttps://devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpB\n\n
+ 🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/9m3udkrj\n  \n🎤
+  モデレーター：戸倉彩@日本アイ・ビー・エム株式会社
+ \n🗣 パネリスト：\n- 千代田まどか (ちょまど)@Microsoft\n
+ - 横田紋奈@JFrog\n- 水田千惠@ヤフー株式会社\n
+SUMMARY:女性開発者のキャリアパスとしてのエバンジェリ
+ ストのススメ at DevRel/Japan CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

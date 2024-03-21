@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:9ce31904-324a-4a78-a370-1eb2d529d016
+DTSTART:20211113T154500
+DTEND:20211113T164500
+DESCRIPTION:トラックB / 15:45〜16:45\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/social/\n\n🌟 Ask the Speakers\nhttps:/
+ /devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpB\n\n🌟 質問
+ 投稿（Sli.do）\nhttps://app.sli.do/event/9m3udkrj\n  \n🎤 モデレ
+ ーター：壽かおり@シックス・アパート株式会社\n🗣 パ
+ ネリスト：\n- 三谷 公美@さくらインターネット株式会
+ 社 / 一般社団法人LOCAL\n- 西村州平@デジタルキューブ\n- 
+ 榎本 航介 ”ジョン”@JAWS-UG(Japan AWS User Group)\n
+SUMMARY:トークテーマ：ソーシャル（中の人） at DevRel/Japan
+  CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

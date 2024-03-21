@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:4cc0e31f-c0b9-4205-9021-8ea6d177cf15
+DTSTART:20211113T174500
+DTEND:20211113T184500
+DESCRIPTION:トラックB / 17:45〜18:45\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/virtual-space/\n\n🌟 Ask the Speakers\n
+ https://devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpB\n\n🌟 
+ 質問投稿（Sli.do）\nhttps://app.sli.do/event/9m3udkrj\n  \n🎤 モ
+ デレーター：鍋島理人@Innerstudio\n🗣 パネリスト：\n- 千
+ 綿 開道@リモ・ジャパン合同会社\n- ジョン・セーヒョ
+ ン@oVice株式会社\n- チェペンコ・ダニー@SpatialChat LTD\n
+SUMMARY:トークテーマ：バーチャルスペース・コミュニケ
+ ーションツール at DevRel/Japan CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

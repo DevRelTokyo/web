@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:2acd4a47-83f3-4263-a773-b895ef54d3d4
+DTSTART:20211113T140000
+DTEND:20211113T150000
+DESCRIPTION:トラックC / 14:00〜15:00\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/media/\n\n🌟 Ask the Speakers\nhttps://
+ devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpC\n\n🌟 質問
+ 投稿（Sli.do）\nhttps://app.sli.do/event/udiacusj\n  \n🎤 モデレ
+ ーター：山崎　亘@株式会社ウフル\n🗣 パネリスト：\n-
+  高橋征義@株式会社達人出版会\n- 山城敬@株式会社イン
+ プレスR&D\n- 森重和春@日経BP\n
+SUMMARY:トークテーマ：メディア at DevRel/Japan CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

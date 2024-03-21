@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:746606ec-bc04-413b-bc6f-c34dc019b321
+DTSTART:20211113T140000
+DTEND:20211113T150000
+DESCRIPTION:トラックB / 14:00〜15:00\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/sponsor/\n\n🌟 Ask the Speakers\nhttps:
+ //devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpB\n\n🌟 質問
+ 投稿（Sli.do）\nhttps://app.sli.do/event/9m3udkrj\n  \n🎤 モデレ
+ ーター：中津川篤司@株式会社MOONGIFT\n🗣 パネリスト：\
+ n- \n
+SUMMARY:ブースツアー&スポンサーセッション at DevRel/Japan C
+ ONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

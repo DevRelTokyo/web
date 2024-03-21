@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:3f853446-c2ab-4e6f-a605-d75201053399
+DTSTART:20211113T154500
+DTEND:20211113T164500
+DESCRIPTION:トラックA / 15:45〜16:45\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/education/\n\n🌟 Ask the Speakers\nhttp
+ s://devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpA\n\n🌟 質
+ 問投稿（Sli.do）\nhttps://app.sli.do/event/spntlw5e\n  \n🎤 モデ
+ レーター：Kani Munidasa@Code Chrysalis\n🗣 パネリスト：\n- 
+ 前田 和樹@株式会社Progate\n- 岡本雄樹@アシアル株式会社
+ \n- Kazumi Hirose@Microsoft\n
+SUMMARY:トークテーマ：資格/教育 at DevRel/Japan CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

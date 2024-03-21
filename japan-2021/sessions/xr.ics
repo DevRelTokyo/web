@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:4bdfab19-75b9-4d83-be58-2c96c449b029
+DTSTART:20211113T140000
+DTEND:20211113T150000
+DESCRIPTION:トラックA / 14:00〜15:00\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/xr/\n\n🌟 Ask the Speakers\nhttps://dev
+ reljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpA\n\n🌟 質問投
+ 稿（Sli.do）\nhttps://app.sli.do/event/spntlw5e\n  \n🎤 モデレー
+ ター：湯村 翼@北海道情報大学\n🗣 パネリスト：\n- 吉
+ 永崇@スチームパンクデジタル株式会社 / ARコンテンツ
+ 作成勉強会\n- 中村 薫@株式会社ホロラボ\n- 山地直彰@大
+ 阪駆動開発\n
+SUMMARY:XRの世界に触れて仲間をふやそう at DevRel/Japan CONFER
+ ENCE 2021
+END:VEVENT
+END:VCALENDAR

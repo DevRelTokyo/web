@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:b79979d6-a334-4736-adf6-44fc351eb2b0
+DTSTART:20211113T154500
+DTEND:20211113T164500
+DESCRIPTION:トラックC / 15:45〜16:45\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/domestic-devrel/\n\n🌟 Ask the Speakers
+ \nhttps://devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpC\n\n
+ 🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/udiacusj\n  \n🎤
+  モデレーター：中津川篤司@株式会社MOONGIFT\n🗣 パネリ
+ スト：\n- 鶴田 啓@楽天グループ株式会社\n- 永井裕二@fre
+ ee株式会社\n- 河本 貴史@LINE 株式会社\n- 松下享平 (まつ
+ した こうへい)@株式会社ソラコム\n
+SUMMARY:日本企業によるDevRel at DevRel/Japan CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

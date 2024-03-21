@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:534f8860-4787-4a68-9a43-dcc977a98124
+DTSTART:20211113T164500
+DTEND:20211113T174500
+DESCRIPTION:トラックA / 16:45〜17:45\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/developer-contest/\n\n🌟 Ask the Speake
+ rs\nhttps://devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpA\n\n
+ 🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/spntlw5e\n  \n🎤
+  モデレーター：菅原のびすけ@プロトアウトスタジオ\n
+ 🗣 パネリスト：\n- 高橋克己@株式会社KDDIウェブコミュ
+ ニケーションズ\n- 長内毅志@freee株式会社\n- 後迫孝（う
+ っしー）@サイボウズ株式会社\n
+SUMMARY:トークテーマ：開発者コンテスト at DevRel/Japan CONFE
+ RENCE 2021
+END:VEVENT
+END:VCALENDAR

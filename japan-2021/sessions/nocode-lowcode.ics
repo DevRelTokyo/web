@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:68a70950-896a-4931-80bd-ea18f605d913
+DTSTART:20211113T130000
+DTEND:20211113T140000
+DESCRIPTION:トラックA / 13:00〜14:00\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/nocode-lowcode/\n\n🌟 Ask the Speakers\
+ nhttps://devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpA\n\n🌟
+  質問投稿（Sli.do）\nhttps://app.sli.do/event/spntlw5e\n  \n🎤 モ
+ デレーター：萩野たいじ@OutSystems\n🗣 パネリスト：\n- 
+ 田中正吾@ワンフットシーバス\n- 大島治彦@グレープシ
+ ティ株式会社\n- 吉田 大貴@Microsoft Corporation\n
+SUMMARY:ノーコード・ローコード ツール・サービスならで
+ はのDevRel at DevRel/Japan CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

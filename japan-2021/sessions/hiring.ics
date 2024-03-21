@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:4b1e0590-6b77-40ec-8c85-067c6ea19c67
+DTSTART:20211113T174500
+DTEND:20211113T184500
+DESCRIPTION:トラックC / 17:45〜18:45\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/hiring/\n\n🌟 Ask the Speakers\nhttps:/
+ /devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpC\n\n🌟 質問
+ 投稿（Sli.do）\nhttps://app.sli.do/event/udiacusj\n  \n🎤 モデレ
+ ーター：赤川朗@株式会社grooves\n🗣 パネリスト：\n- 江
+ 藤　愛（Ai Eto）@CircleCI合同会社\n- 渡邉里菜(なべりな)@
+ サイボウズ株式会社\n- Shion King@Stripe Japan KK\n
+SUMMARY:DevRel職の採用基準をゼロから考える at DevRel/Japan CO
+ NFERENCE 2021
+END:VEVENT
+END:VCALENDAR

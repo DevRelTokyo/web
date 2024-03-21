@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:b6eb63ec-f561-435d-9c46-0aa7bc4cbab8
+DTSTART:20211113T174500
+DTEND:20211113T184500
+DESCRIPTION:トラックA / 17:45〜18:45\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/cloud-ug/\n\n🌟 Ask the Speakers\nhttps
+ ://devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpA\n\n🌟 質
+ 問投稿（Sli.do）\nhttps://app.sli.do/event/spntlw5e\n  \n🎤 モデ
+ レーター：西馬 一郎@日本経済新聞社\n🗣 パネリスト
+ ：\n- 吉積礼敏@クラウドエース株式会社\n- 渥美俊英@一
+ 般社団法人日本クラウドセキュリティアライアンス\n- 
+ 江澤　美保@BMXUG(IBM Cloud Users Group) \n
+SUMMARY:クラウドユーザーグループに聞く、コミュニティ
+ を盛り上げる秘訣 at DevRel/Japan CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

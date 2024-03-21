@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:225ffe73-81aa-478d-9f7c-ffcfae518af1
+DTSTART:20211113T130000
+DTEND:20211113T140000
+DESCRIPTION:トラックB / 13:00〜14:00\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/rural-community/\n\n🌟 Ask the Speakers
+ \nhttps://devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpB\n\n
+ 🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/9m3udkrj\n  \n🎤
+  モデレーター：小島　英揮@Still Day One合同会社\n🗣 パ
+ ネリスト：\n- 関　治之@一般社団法人コード・フォー・
+ ジャパン\n- 古里武士@株式会社DIGITALJET\n- 伴野 智樹@一
+ 般社団法人MA\n
+SUMMARY:地域開発者コミュニティの現状とこれから at DevRel
+ /Japan CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR

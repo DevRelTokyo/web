@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20211111T024514Z
+UID:eb56bdf1-e29d-4abc-99ac-c7fe09898c09
+DTSTART:20211113T164500
+DTEND:20211113T174500
+DESCRIPTION:トラックC / 16:45〜17:45\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2021/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2021/sessions/foreign-devrel/\n\n🌟 Ask the Speakers\
+ nhttps://devreljp.ovice.in/\n\n🌟 ハッシュタグ\n#DevReljpC\n\n🌟
+  質問投稿（Sli.do）\nhttps://app.sli.do/event/udiacusj\n  \n🎤 モ
+ デレーター：池原大然@Twilio\n🗣 パネリスト：\n- 舟木
+ 将彦@CircleCI合同会社\n- 福﨑 有彩@Storyblok\n- 岡村 純一@Sh
+ opify\n
+SUMMARY:トークテーマ：外資DevRel at DevRel/Japan CONFERENCE 2021
+END:VEVENT
+END:VCALENDAR
