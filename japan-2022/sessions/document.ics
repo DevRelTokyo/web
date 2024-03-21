@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220729T104325Z
+UID:acf45ad6-29ef-4915-bbf4-dbfb74a3c1ba
+DTSTART:20220806T151000
+DTEND:20220806T160500
+DESCRIPTION:トラックB / 15:10〜16:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/document/\n\n🌟 ハッシュタグ\n#De
+ vReljpB\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/7CGdu7o
+ M7pgzZK58e7iKW8\n  \n🎤 モデレーター：丸山 ひかる@アクイ
+ アジャパン\n🗣 パネリスト：\n- 宮内あかり@GG Voice & Act
+ ion\n- おおつかあぐり@株式会社SmartHR\n- ぴよ@サイボウズ
+ 株式会社\n
+SUMMARY:わかりやすいドキュメントのためのテクニック at 
+ DevRel/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR

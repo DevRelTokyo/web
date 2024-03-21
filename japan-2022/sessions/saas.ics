@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220729T104325Z
+UID:850c7151-41a0-432b-80c9-b707d939ee76
+DTSTART:20220806T131000
+DTEND:20220806T140500
+DESCRIPTION:トラックB / 13:10〜14:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/saas/\n\n🌟 ハッシュタグ\n#DevRel
+ jpB\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/7CGdu7oM7pg
+ zZK58e7iKW8\n  \n🎤 モデレーター：長内毅志@freee株式会社\
+ n🗣 パネリスト：\n- 舟木将彦@CircleCI\n- 松下享平@株式
+ 会社ソラコム\n- 池原大然@Twilio\n
+SUMMARY:SaaSベンダーのディベロッパーリレーション at DevRe
+ l/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR

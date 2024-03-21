@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220729T104325Z
+UID:02e2a657-9088-436d-83a8-7131ed46e855
+DTSTART:20220806T193000
+DTEND:20220806T210000
+DESCRIPTION:トラックA / 19:30〜21:00\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/new_bee/\n\n🌟 ハッシュタグ\n#Dev
+ ReljpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRagqiaW
+ Q1koszJjBBn4UM\n  \n🎤 モデレーター：中津川篤司@株式会社
+ MOONGIFT\n🗣 パネリスト：\n- 福﨑 有彩@Storyblok\n- 鶴田啓@
+ 楽天グループ株式会社 ラクマ事業部\n- 中西 太郎@株式
+ 会社ワンキャリア\n- 河又 涼@株式会社grooves\n
+SUMMARY:DevRelに関わって一年。どんな取り組みをして、ど
+ んな変化がありましたか？ at DevRel/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR

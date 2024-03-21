@@ -5,6 +5,7 @@
   "main": "ical.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bundle exec jekyll build && wrangler pages deploy ./_site",
     "ical": "node ical.js"
   },
   "repository": {
@@ -22,5 +23,8 @@
     "js-yaml": "^3.13.1",
     "json2yaml": "^1.1.0",
     "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.22.4"
   }
 }

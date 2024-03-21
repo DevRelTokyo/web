@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220729T104325Z
+UID:8faa943c-feef-40b9-bfb0-d840f22b489b
+DTSTART:20220806T141000
+DTEND:20220806T150500
+DESCRIPTION:トラックB / 14:10〜15:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/enterprise_community/\n\n🌟 ハッシ
+ ュタグ\n#DevReljpB\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do
+ /event/7CGdu7oM7pgzZK58e7iKW8\n  \n🎤 モデレーター：萩野たい
+ じ@OutSystems\n🗣 パネリスト：\n- 寺尾 英作@ソフトバン
+ ク株式会社\n- 山田 寛@ヤフー株式会社\n- 酒井真弓@Jagu'e
+ 'r（Japan Google Cloud Usergroup for Enterprise）\n
+SUMMARY:エンタープライズ系コミュニティってどんな感じ
+ ？その中身に迫ってみよう！ at DevRel/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR

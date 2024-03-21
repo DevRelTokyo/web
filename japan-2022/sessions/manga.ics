@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220729T104325Z
+UID:61a518ba-fc25-4314-a3b7-7256dd35db56
+DTSTART:20220806T161000
+DTEND:20220806T170500
+DESCRIPTION:トラックA / 16:10〜17:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/manga/\n\n🌟 ハッシュタグ\n#DevRe
+ ljpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRagqiaWQ1
+ koszJjBBn4UM\n  \n🎤 モデレーター：緑川たかのり@クック
+ パッド株式会社\n🗣 パネリスト：\n- 湊川あい@フリー
+ ランス\n- 千代田まどか (ちょまど)@Microsoft\n- ほさかな
+ お@そそる株式会社\n
+SUMMARY:マンガ家に聞く！DevRelマンガ活用 at DevRel/Japan CONFE
+ RENCE 2022
+END:VEVENT
+END:VCALENDAR

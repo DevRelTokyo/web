@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220729T104325Z
+UID:e1022dbc-4ff0-4b84-84f6-d19af4397d8d
+DTSTART:20220806T171000
+DTEND:20220806T180500
+DESCRIPTION:トラックB / 17:10〜18:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/team_management/\n\n🌟 ハッシュタ
+ グ\n#DevReljpB\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event
+ /7CGdu7oM7pgzZK58e7iKW8\n  \n🎤 モデレーター：戸倉彩@日本ア
+ イ・ビー・エム株式会社\n🗣 パネリスト：\n- 武居 秀
+ 和@ヤフー株式会社\n- 寺田 正弘@さくらインターネット
+ 株式会社\n- 永井裕二@freee株式会社\n
+SUMMARY: at DevRel/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR

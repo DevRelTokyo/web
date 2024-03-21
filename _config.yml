@@ -1,10 +1,10 @@
 # Site
-title:              DevRel Meetup in Tokyo
+title:              DevRel/Tokyo
 bio:                'エバンジェリスト、アドボケイトそしてすべての開発者向けマーケティングを行う方達のコミュニティ'
-description:        "DevRel Meetup in Tokyoはエバンジェリスト、アドボケイト、<br />そしてすべての開発者向けマーケティングを行う方達のコミュニティです"
+description:        "DevRel/Tokyoはエバンジェリスト、アドボケイト、<br />そしてすべての開発者向けマーケティングを行う方達のコミュニティです"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/new-org-logo.png'
+logo:               /assets/img/new-logo.png
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             ja_JP
@@ -88,7 +88,7 @@ podcast:
   url: /podcast.xml
   author: DevRel/Radio
   email: info@devrel.tokyo
-  logo: https://devrel.tokyo/assets/img/podcast-org-logo.png
+  logo: /assets/img/new-logo.png
   language: ja
   category: Business
   subcategory: [Marketing]

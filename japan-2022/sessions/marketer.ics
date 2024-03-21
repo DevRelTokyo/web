@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220729T104325Z
+UID:194692f6-51f7-4dab-b7fa-d9dcea3c94cc
+DTSTART:20220806T151000
+DTEND:20220806T160500
+DESCRIPTION:トラックA / 15:10〜16:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/marketer/\n\n🌟 ハッシュタグ\n#De
+ vReljpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRagqia
+ WQ1koszJjBBn4UM\n  \n🎤 モデレーター：小島 英揮@Still Day One
+  合同会社\n🗣 パネリスト：\n- 永淵 ぎょり@オーティフ
+ ァイ株式会社\n- 佐々木 大樹@富士通クラウドテクノロ
+ ジーズ株式会社\n- 山崎 亘@株式会社ウフル\n
+SUMMARY:今こそマーケティング視点を！　DevRelがもつ可能
+ 性を探る。 at DevRel/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR

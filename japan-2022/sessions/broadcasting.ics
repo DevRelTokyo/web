@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220729T104325Z
+UID:f3bb0578-adae-42e5-9029-b6382e6e84cc
+DTSTART:20220806T131000
+DTEND:20220806T140500
+DESCRIPTION:トラックA / 13:10〜14:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/broadcasting/\n\n🌟 ハッシュタグ\
+ n#DevReljpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRa
+ gqiaWQ1koszJjBBn4UM\n  \n🎤 モデレーター：新藤洋介@天神放
+ 送局\n🗣 パネリスト：\n- 清水 優吾@フリーランス (屋
+ 号：PBI Kingdom)\n- 野良ハック（ざっきー）@IoTLT放送部\n- 
+ 宮原徹@株式会社びぎねっと\n
+SUMMARY:配信実践者が語るオンラインコミュニケーション
+ で双方向性を高める極意 (仮) at DevRel/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR

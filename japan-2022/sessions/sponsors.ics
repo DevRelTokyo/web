@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220729T104325Z
+UID:32f4c646-f5c3-4d88-9971-b819a1a140ad
+DTSTART:20220806T141000
+DTEND:20220806T150500
+DESCRIPTION:トラックA / 14:10〜15:05\n\n🌟 イベント参加用URL\
+ nhttps://devrel.dev/japan-2022/view/\n\n🌟 セッション詳細\nhttps:
+ //devrel.dev/japan-2022/sessions/sponsors/\n\n🌟 ハッシュタグ\n#De
+ vReljpA\n\n🌟 質問投稿（Sli.do）\nhttps://app.sli.do/event/nRagqia
+ WQ1koszJjBBn4UM\n  \n🎤 モデレーター：木原 康智@株式会社M
+ initt\n🗣 パネリスト：\n- 中津川篤司@株式会社MOONGIFT\n- 
+ 松下享平@株式会社ソラコム\n
+SUMMARY:DevRelの取り組み紹介 & DevRelに向いた人物像とは？ 
+ at DevRel/Japan CONFERENCE 2022
+END:VEVENT
+END:VCALENDAR
