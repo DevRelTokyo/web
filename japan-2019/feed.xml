@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja_JP"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/japan-2019/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/japan-2019/" rel="alternate" type="text/html" hreflang="ja_JP" /><updated>2024-03-22T16:40:14+09:00</updated><id>http://localhost:4000/japan-2019/feed.xml</id><title type="html">DEVREL/JAPAN CONFERENCE 2019</title><subtitle>DEVREL/JAPAN CONFERENCE 2019 はDevRel、DX（開発者体験）、開発者コミュニティ、APIそして開発者マーケティングに関するカンファレンスです。</subtitle><entry><title type="html">DevRel/Japan Conference 2019を開催しました</title><link href="http://localhost:4000/japan-2019/blog/2019/10/27/devrel-japan-conference-2019-report/" rel="alternate" type="text/html" title="DevRel/Japan Conference 2019を開催しました" /><published>2019-10-27T07:00:00+09:00</published><updated>2019-10-27T07:00:00+09:00</updated><id>http://localhost:4000/japan-2019/blog/2019/10/27/devrel-japan-conference-2019-report</id><content type="html" xml:base="http://localhost:4000/japan-2019/blog/2019/10/27/devrel-japan-conference-2019-report/"><![CDATA[<p>9/7(土)に、DevRel Meetupコミュニティ主催のカンファレンス「<a href="https://devrel.tokyo/japan-2019/">DevRel/Japan Conference 2019</a>」を開催しました。
+当日は天気に恵まれ、初開催でありながら多くの方にご参加いただくことができました。</p>
+
+<!--more-->
+
+<p><img src="/japan-2019/assets/img/devrel-japan.jpg" alt="devrel japan conference" /></p>
+
+<h2 id="開催概要">開催概要</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>項目</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>開催日時</td>
+      <td>2019年9月7日(土) 13:00 - 21:00</td>
+    </tr>
+    <tr>
+      <td>会場</td>
+      <td>サイボウズ 東京オフィス</td>
+    </tr>
+    <tr>
+      <td>主催</td>
+      <td><a href="https://devrel.connpass.com/">DevRel Meetup in Tokyo</a></td>
+    </tr>
+    <tr>
+      <td>参加者数</td>
+      <td>116名(参加率90%)</td>
+    </tr>
+    <tr>
+      <td>セッション数</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>ハッシュタグツイート数</td>
+      <td><a href="https://togetter.com/li/1402296">1400+</a></td>
+    </tr>
+    <tr>
+      <td>スポンサー数</td>
+      <td>16社</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>参加者数100名超、<a href="https://twitter.com/hashtag/devreljp">#devreljp</a>のツイート数が1400を超え、オンラインでもオフラインでも大きく盛り上がりました。</p>
+
+<h2 id="事前アンケート結果">事前アンケート結果</h2>
+
+<p><img src="/japan-2019/assets/img/graph.png" alt="graph" /></p>
+
+<p>参加登録時の事前アンケートの結果です。
+経営層の参加が16%と高い数値を出しており、普段のミートアップには参加しない層にアプローチできるのもカンファレンスならではであると感じました。</p>
+
+<h2 id="作ったもの">作ったもの</h2>
+
+<p><img src="/japan-2019/assets/img/creative.png" alt="creative" /></p>
+
+<h2 id="参加者レポート">参加者レポート</h2>
+
+<ul>
+  <li><a href="https://tech-blog.cloud-config.jp/2019-09-07-devrel-japan-conference-2019/">[潜入！]DevRel/Japan Conference 2019~DevRelってなんですか？~ ｜ cloud.config Tech Blog</a></li>
+  <li><a href="https://tech-blog.cloud-config.jp/2019-09-09-devrel-japan-2/">[もはやエンジニア]編集者視点でのテックカンファレンスのつくり方＠DEVREL/JAPAN ｜ cloud.config Tech Blog</a></li>
+  <li><a href="https://www.1ft-seabass.jp/memo/2019/09/08/devrel-japan-con-2019/">DEVREL/JAPAN CONFERENCE 2019に参加＆懇親会LTで話させていただきました  1ft-seabass.jp.MEMO</a></li>
+  <li><a href="https://dev.classmethod.jp/etc/devrel-japan-conference-2019/">DevRel/Japan Conference 2019に参加してきました ｜ DevelopersIO</a></li>
+</ul>
+
+<h2 id="来年に向けて">来年に向けて</h2>
+
+<p>カンファレンスが開催された次の週の火曜日に、<a href="https://devrel.connpass.com/event/144239/">報告会</a>（という名の反省会）を開催しました。</p>
+
+<p><img src="/japan-2019/assets/img/report.png" alt="report" /></p>
+
+<p>今回は、カンファレンス自体開催が初というものでしたが、私が初めて実行委員長という立場で運営を務めたものでもありました。
+至らない点は多くあったかと思いますが、今回の反省を生かし、来年へ繋げたいと思います。</p>
+
+<h2 id="最後に">最後に</h2>
+
+<p>当日参加いただいた参加者の方々、素晴らしいセッションを披露した登壇者の方々、当カンファレンスにご協力いただいたスポンサーの方々、そして運営メンバー。関わった全ての方々へ感謝します！</p>
+
+<p>ぜひ普段の<a href="https://devrel.connpass.com/">ミートアップ</a>にも足を運んでください。
+また、来年の2020年2月28日、29日の2日間で<a href="https://tokyo-2020.devrel.net/">DevRelCon Tokyo 2020</a>が開催されます。こちらは全編英語で実施されるので海外カンファレンスの雰囲気を味わうことができます。</p>
+
+<p>それでは、来年のカンファレンスをお楽しみにお待ちください！</p>]]></content><author><name>Hikaru Maruyama</name></author><summary type="html"><![CDATA[9/7(土)に、DevRel Meetupコミュニティ主催のカンファレンス「DevRel/Japan Conference 2019」を開催しました。 当日は天気に恵まれ、初開催でありながら多くの方にご参加いただくことができました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/japan-2019/assets/img/ogp.png" /><media:content medium="image" url="http://localhost:4000/japan-2019/assets/img/ogp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">デベロッパー マーケティングの担当になった方へ</title><link href="http://localhost:4000/japan-2019/blog/2019/09/05/DevMarketing/" rel="alternate" type="text/html" title="デベロッパー マーケティングの担当になった方へ" /><published>2019-09-05T21:00:00+09:00</published><updated>2019-09-05T21:00:00+09:00</updated><id>http://localhost:4000/japan-2019/blog/2019/09/05/DevMarketing</id><content type="html" xml:base="http://localhost:4000/japan-2019/blog/2019/09/05/DevMarketing/"><![CDATA[<h1 id="デベロッパー-マーケティングの担当になった方へ">デベロッパー マーケティングの担当になった方へ</h1>
+
+<p>DevRel/Japan Conference 2019 運営メンバーの 山崎 亘 です。
+<a href="https://devrel.tokyo/japan-2019/blog/2019/08/21/Community/">先日</a>  、コミュニティ マーケティング、特に開発者やエンジニアのコミュニティを運営している、あるいはこれから立ち上げようとしている方々に向けて記事を書いてみました。今回は、「デベロッパー マーケティング」の担当になったはいいものの、何をしていいかよく分からない、あるいは自分の活動がこれでいいか確かめたいという方に向けて本イベントをご紹介します。というのも･･････</p>
+
+<!--more-->
+
+<p><img src="/japan-2019/assets/img/dev_marketing.png" alt="event" /></p>
+
+<h2 id="君はひとりじゃない">君はひとりじゃない</h2>
+
+<p>私が以前に居た会社では、そこそこ大きな規模であったのにもかかわらず、DevRelとかデベロッパー マーケティングとかは私一人しか居ませんでした。グローバル企業だったため、ほかの国のメンバーと意見やアイディアを共有することはあっても、日本市場、日本のデベロッパー向けにどうしていいかなどは全部自分で考える必要がありました（ま、当たり前ではあるのですが）。
+ですが、この「DevRelJp Meetup」コミュニティに出会ってから（うわっ、この辺の書き出しは怪しい通販の文句みたいですねぇ）、同様なIT企業だけでなく、いわゆる「競合」と言われる様な会社のDevRel担当の方々のアイディアを聞いたり、意見交換をすることが出来るようになりました。それらのアイディアは私にとって宝の山で（また怪しい表現になってきた･･･。でもマジメな話です）、そのままでは使わないまでも自社向け、自社製品向けにアレンジして活かすことができました。
+そして今回のカンファレンスでも、マーケティング的な観点からのセッションがいくつもあります。</p>
+
+<h2 id="デベロッパー-マーケティング向けセッション">デベロッパー マーケティング向けセッション</h2>
+
+<p>たとえば、開発者向けのカンファレンスに参加する場合の知見は？？にお答えするセッションが2つも。</p>
+
+<h3 id="開発者向けカンファレンス出展に向けて考えるべきこととある外資系ベンダーの担当者より">開発者向けカンファレンス出展に向けて考えるべきこと:とある外資系ベンダーの担当者より</h3>
+
+<p><a href="https://devrel.tokyo/japan-2019/speakers/ikehara/">池原大然, インフラジスティックス・ジャパン</a><br />
+開発者向けカンファレンスにこれまで出展担当として関わってきた経験や、さまざまな取り組みについてうまくいったこと、いかなかったことを「外資系ベンダーの担当者」という立ち位置から共有します。
+同じ「カンファレンス」でも出展側だけでなく、主催側知見も。有名な「Developers Summit（デブサミ）」の主催者によるセッションです。</p>
+
+<h3 id="編集者視点でのテックカンファレンスの作り方">編集者視点でのテックカンファレンスの作り方</h3>
+
+<p><a href="https://devrel.tokyo/japan-2019/speakers/kondoyuko/">近藤佑子, 翔泳社</a><br />
+開発者向けイベントを作っている方、開発者向けイベントをマーケティングに活用しようとしている方に向けて、デブサミの企画をどのように作っているのか、さらにどんなマインドでデブサミのステークホルダーや、開発者コミュニティに対して接しているのか、そのエッセンスを編集者視点でお話します。
+主催側の観点からの知見も知ることで、効果的に出展することが出来そうですね。
+今度は、ハードウェアのデベロッパー マーケティングです。スピーカーも「DevRelといえばクラウドサービスやAPIをターゲットになることが多い」とおっしゃってますが、ハードウェアについては珍しいです。ハードウェアを担当する方はもちろんのこと、意外にそれ以外の方にも参考になるアイディアも多いと思います。</p>
+
+<h3 id="ハードウェアサービスにおけるdevrel">ハードウェアサービスにおけるDevRel</h3>
+
+<p><a href="https://devrel.tokyo/japan-2019/speakers/kido/">木戸 康平, CambrianRobotics</a><br />
+ハードウェアサービス視点でのDevRelについて、課題となったこと、解決した方法をお話します。ハードウェアのDevRelに興味がある人／やろうとしている人、IoTのDevRelにはどんな事が必要か知りたい方におすすめです。</p>
+
+<h3 id="開発者にとってマーケティングは悪なのか">開発者にとって、「マーケティング」は「悪」なのか？！</h3>
+
+<p>さて、手前味噌的で恐縮ですが、実は私もセッションを持っています。タイトルからしてふざけて奇をてらっていますが、内容はマジメです。でも柔らかくお話しします。</p>
+
+<p><a href="https://devrel.tokyo/japan-2019/speakers/wyamazak/">山崎 亘, ウフル</a><br />
+「DevRelを目指す人」に今一度「マーケティング」について考えてもらうために、下記の３つのトピックを用いてお話しします。</p>
+
+<ol>
+  <li>悪の帝国「マーケティング本部」から来ました</li>
+  <li>「ナンパ」は最低だと思うけど「素敵な出会い」は待ち望む</li>
+  <li>ウルトラマンに学ぶ、適切なコミュニケーション</li>
+</ol>
+
+<p>いや、ホントにふざけてますよね。繰り返しますが、マジメに内容を考えてますよ。</p>
+
+<hr />
+
+<p>これだけの内容が一日、いや半日で聞けます。いやいや、聞けるだけでなく、懇親会で質問が出来るし、同じような悩みの人たちとディスカッションが出来ます。あとから資料を見たり、ビデオを観たりするのでは体験できない貴重な半日。</p>
+
+<p>繰り返しますが、申し込まない理由が見つかりません！ もうすぐ開催か！  <a href="https://devrel.connpass.com/event/132576/">こちら</a>  から今すぐお申込みを！ いや、本当に、いよいよもうすぐです！</p>]]></content><author><name>Wataru Yamazaki</name></author><summary type="html"><![CDATA[デベロッパー マーケティングの担当になった方へ DevRel/Japan Conference 2019 運営メンバーの 山崎 亘 です。 先日 、コミュニティ マーケティング、特に開発者やエンジニアのコミュニティを運営している、あるいはこれから立ち上げようとしている方々に向けて記事を書いてみました。今回は、「デベロッパー マーケティング」の担当になったはいいものの、何をしていいかよく分からない、あるいは自分の活動がこれでいいか確かめたいという方に向けて本イベントをご紹介します。というのも･･････]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/japan-2019/assets/img/ogp.png" /><media:content medium="image" url="http://localhost:4000/japan-2019/assets/img/ogp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">「愛」を感じるカンファレンスがはじまるよ〜</title><link href="http://localhost:4000/japan-2019/blog/2019/09/03/LetsJoin/" rel="alternate" type="text/html" title="「愛」を感じるカンファレンスがはじまるよ〜" /><published>2019-09-03T07:00:00+09:00</published><updated>2019-09-03T07:00:00+09:00</updated><id>http://localhost:4000/japan-2019/blog/2019/09/03/LetsJoin</id><content type="html" xml:base="http://localhost:4000/japan-2019/blog/2019/09/03/LetsJoin/"><![CDATA[<p>こんにちは。運営の松谷です。<br />
+いよいよDevRel/Japan Conference 2019が9月7日（土）に開催です。開催まであと4日です。</p>
+
+<!--more-->
+
+<p><img src="/japan-2019/assets/img/stickers.jpg" alt="sticker" />
+出来立てホヤホヤのステッカー・・・。</p>
+
+<h2 id="はっじまりますよー"><span style="color:#00B0F0; ">はっじまりますよー！</span></h2>
+
+<p>みなさん、いよいよ始まりますよー！<br />
+申し込みがまだの方。まだまだ間に合いますよ〜！お待ちしています。</p>
+
+<p>本カンファレンスに登壇する方々は、CFPの審査により選ばれています。<br />
+みなさんに何を伝えたいか。参加したら何を得ることができるかを十分に考えてくれています。　　</p>
+
+<p>登壇する方々は開発の経験者だったり、異業種の経験があったり、今までの経験と知識を総動員してプレゼンをしてくれます。<br />
+きっと皆さんの悩み事、課題、問題、聞いてみたいことなど解決のヒントが得られるに違いありません。期待してください。<br />
+途中から２つのトラックに分かれますので、どのテーマを聞いてをみたいかを決めておくと移動しやすいと思います。</p>
+
+<h2 id="そして懇親会"><span style="color:#00B0F0; ">そして懇親会！</span></h2>
+<p>カンファレンスの終わりに懇親会を用意しています。懇親会では、登壇者と話ができる最大のチャンスです。<br />
+実は、私もすごく楽しみにしているんです。<br />
+登壇者の方々は、皆さんの疑問に答えたり会話を楽しむために懇親会に参加してくれます。<br />
+だから声をかけてもらうと嬉しいのです。肩に力を入れずにどんどん話していきましょう！</p>
+
+<p>また、いつもの知っている友達ではなくて「初めまして」の人と話してみるのも良いでしょう。<br />
+新しい繋がりを作るのもカンファレンスを楽しむ方法です。<br />
+なかなか声をかけにくいとか声をかけるタイミングが難しかったりするかもしれません。<br />
+しかし、実はみんなドキドキしているのです。
+思い切って声をかけてみましょう！！</p>
+
+<p>声をかけにくい時にはスタッフにサポートをお願いしましょう。<br />
+スタッフは、ラベンダー色にカンファレンスロゴ印字のスタッフ用Tシャツを着ています。<br />
+快くお手伝いをさせていただきます。</p>
+
+<p>『はじめまして！』の一言で新しい扉を開けてみましょう。</p>
+
+<h4 id="土曜日の午後--いつもと違う体験を"><span style="color:#F1823E; ">　　　土曜日の午後。  いつもと違う体験を！！</span></h4>
+
+<hr />
+
+<h3 id="開催案内">開催案内</h3>
+<p>DevRel/Japanは以下の日程で開催します。</p>
+<ul>
+  <li>公式サイト　: <a href="https://devrel.tokyo/japan-2019/">DevRel/Japan Conference 2019</a></li>
+  <li>開催日　　　:2019年9月7日(土)</li>
+  <li>開催場所　　:サイボウズ株式会社様（日本橋タワー）</li>
+</ul>
+
+<p><strong>みなさまの参加をお待ちしています！！</strong></p>
+
+<hr />]]></content><author><name>Aritomo Matsutani</name></author><summary type="html"><![CDATA[こんにちは。運営の松谷です。 いよいよDevRel/Japan Conference 2019が9月7日（土）に開催です。開催まであと4日です。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/japan-2019/assets/img/ogp.png" /><media:content medium="image" url="http://localhost:4000/japan-2019/assets/img/ogp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevRelを会社で実践するヒントに！経営層が大集合する豪華なパネルディスカッション</title><link href="http://localhost:4000/japan-2019/blog/2019/08/31/Panel-Discussion/" rel="alternate" type="text/html" title="DevRelを会社で実践するヒントに！経営層が大集合する豪華なパネルディスカッション" /><published>2019-08-31T21:55:00+09:00</published><updated>2019-08-31T21:55:00+09:00</updated><id>http://localhost:4000/japan-2019/blog/2019/08/31/Panel-Discussion</id><content type="html" xml:base="http://localhost:4000/japan-2019/blog/2019/08/31/Panel-Discussion/"><![CDATA[<p>DevRel/Japan Conference 2019 運営の松谷です。
+いよいよ開催まであと少し。<br />
+着々と開催に向けて準備が整っていますので、その中からカンファレンスの魅力の一部をご紹介します。<br />
+パネルディスカッションに登壇される方々の魅力をまとめてご紹介しますので、ぜひどんな方々が登壇するのか事前にチェックしてみてください。<br />
+新しい知見と新しい繋がりができること間違いありません！</p>
+
+<!--more-->
+
+<h2 id="パネルディスカッション紹介">パネルディスカッション紹介</h2>
+
+<p>みなさんお楽しみの<a href="/japan-2019/speakers/hikaru/">パネルディスカッション</a>は、基調講演後の13:50から開始です。<br />
+『企業の経営層から見るDevRelの価値とは？』というテーマで討論をして頂きます。<br />
+では、いろいろな切り口で討論していただく素晴らしいパネリストをご紹介しますね。</p>
+
+<p><img src="/japan-2019/assets/img/panelist.png" alt="panelist" /></p>
+
+<h4 id="-横田真俊さんさくらインターネット"><i class="fas fa-user"></i> 横田真俊さん　(さくらインターネット)</h4>
+<p>言わずと知れたさくらインターネットのエバンジェリスト。数多くの講演やハンズオン、本やブログの執筆、研究活動を行う。  経営層から見るDevRelの存在価値についてどんな事を語ってくれるか楽しみ。
+プライベートではIT系ニュースサイトの<a href="http://wslash.com/">P2Ptoday</a>を運営されていますのでこちらもチェック!!</p>
+
+<h4 id="-ダニエルへフェルナンさんstripe"><i class="fas fa-user"></i> ダニエルへフェルナンさん　(Stripe)</h4>
+<p>2014年からストライプジャパンの立ち上げを担当。日本オフィスの代表取締役として、日本向け製品の開発や組織の拡大を行い、日本の事業の統括をしている。
+海外企業のDevRelと日本企業のDevRelの特徴など聞けるかもしれません。<br />
+ダニエルさんをよく知るには、<a href="https://www.businessinsider.jp/post-167517">日本拡大を加速、1兆円の決済メガベンチャー｢ストライプ｣の強さは“幼なじみ”経営</a>のサイトをチェック!!</p>
+
+<h4 id="-安田クリスチーナさんmicrosoft"><i class="fas fa-user"></i> 安田クリスチーナさん　(Microsoft)</h4>
+<p>デジタル技術を活用して発展途上国支援活動を実施中。ブロックチェーンを活用し電子証明書を発行することで身分証明書を持たない人々が教育などのサービスを受けれるようにするプロジェクトに関わっている。また、日本を代表するビジョンや才能の持ち主30歳未満の30人を選出する「30 UNDER 30 Japan」ポリティクス部門を受賞。<br />
+安田さんがどのような取り組みをされているのかは「<a href="https://forbesjapan.com/30under30/">30 UNDER 30　Japan 2019</a>」のサイトをチェック!!</p>
+
+<h4 id="-中井勘介さん構造計画研究所"><i class="fas fa-user"></i> 中井勘介さん　(構造計画研究所)</h4>
+<p>クラウドメール配信サービスのSendGridエバンジェリストとして日本での普及活動に取り組んでいる。SendGridは、APIとしてデベロッパー向けのサービスも提供しているため開発者に対し勉強会開催、ドキュメント提供などのサポートを続けている。この開発者との関係性を大切にすることこそDevRelであり、そんなDevRel活動を継続してきたからこそ企業におけるDevRelの価値について貴重な意見を聞けるはず。<br />
+中井さんの活動を知るには、<a href="https://www.businessinsider.jp/post-167517">メールの到達率を上げる「魔法の杖」はない</a>のサイトをチェック!!</p>
+
+<h2 id="開催案内">開催案内</h2>
+<p>DevRel/Japanは以下の日程で開催します。</p>
+<ul>
+  <li>公式サイト　: <a href="https://devrel.tokyo/japan-2019/">DevRel/Japan Conference 2019</a></li>
+  <li>開催日　　　: 2019年9月7日(土)</li>
+  <li>開催場所　　: サイボウズ株式会社様（日本橋タワー）</li>
+</ul>
+
+<p><strong>みなさま参加お待ちしています！！</strong></p>]]></content><author><name>Aritomo Matsutani</name></author><summary type="html"><![CDATA[DevRel/Japan Conference 2019 運営の松谷です。 いよいよ開催まであと少し。 着々と開催に向けて準備が整っていますので、その中からカンファレンスの魅力の一部をご紹介します。 パネルディスカッションに登壇される方々の魅力をまとめてご紹介しますので、ぜひどんな方々が登壇するのか事前にチェックしてみてください。 新しい知見と新しい繋がりができること間違いありません！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/japan-2019/assets/img/ogp.png" /><media:content medium="image" url="http://localhost:4000/japan-2019/assets/img/ogp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">コミュニティ マーケティングにお悩みの方へ</title><link href="http://localhost:4000/japan-2019/blog/2019/08/22/Community/" rel="alternate" type="text/html" title="コミュニティ マーケティングにお悩みの方へ" /><published>2019-08-22T04:00:00+09:00</published><updated>2019-08-22T04:00:00+09:00</updated><id>http://localhost:4000/japan-2019/blog/2019/08/22/Community</id><content type="html" xml:base="http://localhost:4000/japan-2019/blog/2019/08/22/Community/"><![CDATA[<p>DevRel/Japan Conference 2019 運営メンバーの 山崎 亘 です。</p>
+
+<p>もし皆さんがコミュニティ マーケティング、特に開発者やエンジニアのコミュニティを運営している、あるいはこれから立ち上げようとしていて、「ちょっと自信が無い」とか「上手くいっている人たちの話が聞いてみたい」とかの場合だったら、このDevRel/Japanコンファレンスは、そんな皆さんのためにあると言っても過言ではないくらいです！</p>
+
+<!--more-->
+
+<p>今回のセッションは、すべてCall for Papersにて応募され、選考メンバーによって採択されたものです。数多くの応募があり、かなり悩みながら選択し、涙を飲みまくって残念ながら今回は選外とした応募も少なくありません。「コミュニティ」に関する応募が多く、結果として当日のセッションでもこのテーマに関するものが多くなっています。それだけ多くの人の関心度の高さを物語っています。</p>
+
+<h2 id="コミュニティに関するセッション">「コミュニティ」に関するセッション</h2>
+
+<p>今回、「コミュニティ」に関するセッションは、5つ。その概要をかいつまんでご紹介します。</p>
+
+<h4 id="コミュニティの場がひとりのエンジニアの歯車を回しだしたくるくると">コミュニティの場が、ひとりのエンジニアの歯車を回しだした、くるくると</h4>
+<p><a href="/japan-2019/speakers/dz_/">Kazumi OHIRA, フリーランス</a></p>
+
+<p>働き方を問われる昨今、コミュニティを活かしたアプローチはみなさんの助けとなるはずです。エンジニアにとっても企業にとっても。</p>
+
+<h4 id="devrelで繋がるシゴトとコミュニティ">DevRelで繋がるシゴトとコミュニティ</h4>
+<p><a href="/japan-2019/speakers/beppu01/">西馬 一郎, 日本経済新聞社</a></p>
+
+<p>JBUG（Japan Backlog User Group）の中で東京運営チームを結成、勉強会のテーマ設定や登壇者との調整、会場確保などを主体的に担う運営チーム作りに取り組んできました。プロジェクトマネジメントを学びたいという関心軸で集まったメンバーが運営チームとなり、自ら主体的に活動している例かと思います。所属会社や文化が違うメンバーが、共通認識を得ていく過程でファシリテーションが重要と考えています。 DevReljpコミュニティにおいて、「コミュニティ」や「ファシリティ」といったテーマの勉強会に登壇し、JBUG活動を通じて得た知見を共有させていただきました。</p>
+
+<h4 id="コミュニティ型組織でヒーローを育てる">コミュニティ型組織でヒーローを育てる</h4>
+<p><a href="/japan-2019/speakers/yoshidashingo/">吉田真吾, サイダス</a></p>
+
+<p>セールス主導で製品を作る会社から、1年間で「エンジニアの楽園」と呼ばれるようになった会社があります。「会社もコミュニティである」と位置づけて技術コミュニティで培った自己実現や行動科学の手法を用いて、1人1人違った「働きがい」を、会社全体の推進力に変えていく事例についてお話しします。</p>
+
+<h4 id="コミュニティのブランド力を地方に展開しエンパワーメントする戦略">コミュニティのブランド力を地方に展開しエンパワーメントする戦略</h4>
+<p><a href="/japan-2019/speakers/woosyume/">金宇赫, 楽天</a></p>
+
+<p>やる気だけではなくいくつか必須不可欠なところがありました。経験・実績・ビジネスパフォーマンス。それらをどうやって得られるのか。またそれらをどうやって生かして、地域のエンジニアの立場で何ができるのか</p>
+
+<h4 id="jaws-days-2019実行委員長が意識してた日々のコミュニティとjaws-days-2019満漢全席におけるマネジメントの違い">JAWS DAYS 2019実行委員長が意識し(て)た、日々のコミュニティとJAWS DAYS 2019〜満漢全席〜におけるマネジメントの違い</h4>
+<p><a href="/japan-2019/speakers/yoshie/">吉江 瞬</a></p>
+
+<p>コミュニティ参加者は何を求めているのか、企業はユーザーコミュニティに何を求めているのか、日々のコミュニティ活動において考えながら、JAWS-UGで3年間活動し続け、AWS Samurai 2018を受賞し、今も尚、何を考えて活動しているかお話します。</p>
+
+<hr />
+
+<p>これだけの内容が一日、いや半日で聞けます。いやいや、聞けるだけでなく、懇親会で質問が出来るし、同じような悩みの人たちとディスカッションが出来ます。そう、実は、このカンファレンス自体が「コミュニティ」ですよね。DevRelコミュニティです。あとから資料を見たり、ビデオを観たりするのでは体験できない貴重な半日。</p>
+
+<p>申し込まない理由が見つかりません！  <a href="https://devrel.connpass.com/event/132576/">こちら</a>  から今すぐお申込みを！</p>]]></content><author><name>Wataru Yamazaki</name></author><summary type="html"><![CDATA[DevRel/Japan Conference 2019 運営メンバーの 山崎 亘 です。 もし皆さんがコミュニティ マーケティング、特に開発者やエンジニアのコミュニティを運営している、あるいはこれから立ち上げようとしていて、「ちょっと自信が無い」とか「上手くいっている人たちの話が聞いてみたい」とかの場合だったら、このDevRel/Japanコンファレンスは、そんな皆さんのためにあると言っても過言ではないくらいです！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/japan-2019/assets/img/ogp.png" /><media:content medium="image" url="http://localhost:4000/japan-2019/assets/img/ogp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">みなさんのナレッジを結集する場でもあります</title><link href="http://localhost:4000/japan-2019/blog/2019/07/15/Call-For-Papers-2019/" rel="alternate" type="text/html" title="みなさんのナレッジを結集する場でもあります" /><published>2019-07-15T21:00:00+09:00</published><updated>2019-07-15T21:00:00+09:00</updated><id>http://localhost:4000/japan-2019/blog/2019/07/15/Call-For-Papers-2019</id><content type="html" xml:base="http://localhost:4000/japan-2019/blog/2019/07/15/Call-For-Papers-2019/"><![CDATA[<p>DevRel/Japan Conference 2019 運営メンバーの 山崎 亘 です。</p>
+
+<p>「DevRel Japanに参加すると、今まで知らなかったことが聞けるかな？」「自分の得意な分野以外も知れるかな？」「どのくらいのレベルなんだろう」とか思われるかも知れません。</p>
+
+<p>実はこの日は、みなさんのナレッジを結集する場でもあります。
+<!--more--></p>
+
+<p>自分の得意分野のお話をほかの参加者に共有しませんか？ それがきっとほかの人にとって「今まで知らなかったこと」になります。もしかするとそれは参加者が既に知っていることの可能性もありますが、その場合でも「やっぱりそうだよね！！」と共感してもらえます。DevRelというピンポイントで「自分の考えと同じ！」というのは何か嬉しくないですか？ きっとその後、共感した人ともっと突っ込んだディスカッションができるはずです。その共感やディスカッションが、また次の日からDevRelをやったり、目指したたりすることの「力」になるんです。</p>
+
+<p>「こんなレベルで大丈夫だろうか？」 大丈夫です。参加者はいろいろなレベルの人たちです。あなたが「初歩的かな？」と思う内容でも、これからDevRelをやろうとする人たちにはとても参考になるはずです。</p>
+
+<p>「ちょっと尖った内容すぎるかな？」大丈夫です。それをきっかけに参加者同士でディスカッションをしましょう。</p>
+
+<p>「ちょっとニッチな内容すぎるかな？」大丈夫です。ニッチだからこその悩みやtipsなどを、参加者が自分自身のことに置き換えて傾聴してくれるはずです。</p>
+
+<p>毎月のDevRel Meetup in Tokyoに参加している方、今度はあなたの発表する番です。過去のDevRel MeetupでLTをやってくださった方、その後のアップデートを含めてもう少し詳しく内容をお聞かせ願えませんか？ 今までDevRel Meetupに参加したことがないけどDevRelに興味がある方、ぜひこのカンファレンスでDevRelに関する思いを発表してコミュニティに参加してみませんか？</p>
+
+<p>さまざまな皆さんの参加によって、今回初開催の「DevRel/Japan Conference 2019」を素晴らしい体験の一日に作り上げましょう。ご協力をお願いいたします。</p>
+
+<p>ひとまずアイディアをまとめて、Call for Papersにて応募してください。応募内容について疑問点や悩みがある方、発表したいけど内容が決まらない方などなど、遠慮なく <a href="/japan-2019/#organizers">ORGANIZERS（主催）</a> に記載の運営メンバーにご連絡ください。もちろん、 <a href="/japan-2019/#contact">CONTACT（お問い合わせ）</a> からのご連絡でも構いません。そう、善は急げ。今すぐアクションを！</p>
+
+<p>詳細・ご応募は <a href="https://www.papercall.io/devrel-japan-2019">こちら</a>  から。</p>]]></content><author><name>Wataru Yamazaki</name></author><summary type="html"><![CDATA[DevRel/Japan Conference 2019 運営メンバーの 山崎 亘 です。 「DevRel Japanに参加すると、今まで知らなかったことが聞けるかな？」「自分の得意な分野以外も知れるかな？」「どのくらいのレベルなんだろう」とか思われるかも知れません。 実はこの日は、みなさんのナレッジを結集する場でもあります。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/japan-2019/assets/img/ogp.png" /><media:content medium="image" url="http://localhost:4000/japan-2019/assets/img/ogp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevRel関連のコミュニティのご紹介</title><link href="http://localhost:4000/japan-2019/blog/2019/06/22/introduction-of-other-communities/" rel="alternate" type="text/html" title="DevRel関連のコミュニティのご紹介" /><published>2019-06-22T21:55:00+09:00</published><updated>2019-06-22T21:55:00+09:00</updated><id>http://localhost:4000/japan-2019/blog/2019/06/22/introduction-of-other-communities</id><content type="html" xml:base="http://localhost:4000/japan-2019/blog/2019/06/22/introduction-of-other-communities/"><![CDATA[<p>みなさんこんにちは。DevRel/Japan Conference 2019 の実行委員 松谷です。<br />
+今回はDevRel関連のコミュニティをご紹介いたします。<br />
+<!--more--></p>
+<h2 id="さあ始まりますよ">さあ始まりますよ〜</h2>
+<p>公式サイトがオープンして一週間が経ちました。いよいよ開催に向けて活動していますよー。<br />
+４名のブログ担当が順番にカンファレンス情報、DevRel関連情報をお伝えしていきます。</p>
+
+<h2 id="devreljapanとはどんなカンファレンス">DevRel/Japanとは………..どんなカンファレンス？</h2>
+<p>DevRel活動では、開発者との関係性を構築することが非常に重要です。そんな活動をしている方々が保有している成果・知見・経験を共有しあう場が DevRel/Japan Conference です。<br />
+日頃、直接的・間接的に開発者を助けてくれるDevRel担当の方々のノウハウは、なかなか聞くことができません。
+さらにDevRelのやり方は一つではありません。誰がやっても同じではありません。自分達の製品・サービスにとって適したDevRelの活動を見つけだす助けになればと思います。<br />
+DevRel活動に興味がある方、マーケティングに携わっている・興味があるかたは是非参加してくださいね。</p>
+
+<h2 id="開催案内">開催案内</h2>
+<p>DevRel/Japan Conference は以下の日程で開催します。</p>
+<ul>
+  <li>公式サイト　:  <a href="https://devrel.tokyo/japan-2019/">DevRel/JAPAN Conference 2019</a></li>
+  <li>開催日　　　:2019年9月7日(土)</li>
+  <li>開催場所　　:サイボウズ株式会社様（日本橋タワー）</li>
+</ul>
+
+<p>まだまだ先と思っている方。すぐそこですよ〜。</p>
+
+<h2 id="他コミュニティのご紹介">他コミュニティのご紹介</h2>
+<p>６月に行われたDevRel 関連イベントのご報告
+６月３日(月)  DevRel Meetup #42  が開催されました。<br />
+今回のテーマは「しくじり先生」です。<br />
+皆さんも心当たりがあると思うのですが、仕事はいつも成功することばかりではないですよね。<br />
+人の失敗は共有されることが少ないのでなかなか聞くことが出来ません。そんな今だから言える「しくじり」から学ぼうということで、なかなか聞けない裏事情を共有して今後の施策に活かしていこうというもの。<br />
+公式には紹介できないことや、会場巻き込むほどの大爆笑の失敗ネタ、
+ここでしか聞くことができない発信厳禁ネタなど語って頂きました。
+失敗しても笑顔で話せるのは過去のことだから。その時の苦しみや大変だった思い出は参加者に引き継がれて新しい栄養となっていくのですね。
+<img src="/japan-2019/assets/img/screenshot01.jpg" alt="devrelmark01" /></p>
+
+<p>いやいや「9月までは待てないよ〜」という方には、DevRel関連情報をお知らせしますね。<br />
+ぜひぜひこちらもチェックしてください。　　</p>
+
+<p>DevRel/Community #3</p>
+<ul>
+  <li>申込URL　　　:  <a href="https://devrel.connpass.com/event/133456/">DevRel/communuty</a></li>
+  <li>開催日　　　　: 2019年6月28日(金)</li>
+  <li>開催場所　　　: サイボウズ会社様（日本橋タワー）</li>
+</ul>
+
+<p>DevRel Meetup #43　　</p>
+<ul>
+  <li>申込URL　　　: <a href="https://devrel.connpass.com/event/134434/">DevRel Meetup in Tokyo</a></li>
+  <li>開催日　　　　: 2019年7月3日(水)</li>
+  <li>開催場所　　　: 株式会社ハートビーツ様</li>
+  <li>テーマ　　　　: ファシリテーション</li>
+</ul>
+
+<p>さあDevRel関連のコミュニティに興味があるかたは、ぜひ気軽に参加してください。<br />
+メルマガも発信しているので一緒にチェックしてくださいね！！</p>]]></content><author><name>Aritomo Matsutani</name></author><summary type="html"><![CDATA[みなさんこんにちは。DevRel/Japan Conference 2019 の実行委員 松谷です。 今回はDevRel関連のコミュニティをご紹介いたします。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/japan-2019/assets/img/ogp.png" /><media:content medium="image" url="http://localhost:4000/japan-2019/assets/img/ogp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevRelの知見を共有する1Dayカンファレンス「DevRel/Japan Conference 2019」を開催します！</title><link href="http://localhost:4000/japan-2019/blog/2019/06/15/welcome-to-devrel-japan-2019/" rel="alternate" type="text/html" title="DevRelの知見を共有する1Dayカンファレンス「DevRel/Japan Conference 2019」を開催します！" /><published>2019-06-15T21:05:59+09:00</published><updated>2019-06-15T21:05:59+09:00</updated><id>http://localhost:4000/japan-2019/blog/2019/06/15/welcome-to-devrel-japan-2019</id><content type="html" xml:base="http://localhost:4000/japan-2019/blog/2019/06/15/welcome-to-devrel-japan-2019/"><![CDATA[<p>みなさんこんにちは。DevRel/Japan Conference 2019 の実行委員長 丸山です。
+<!--more--></p>
+
+<p>DevRelの知見を共有する1Dayカンファレンス「DevRel/Japan Conference 2019」を、9月7日に開催することが決定しました。
+3ヶ月前ほどから水面下で準備を行い、ここで無事に発表することができました。</p>
+
+<p>DevRelとは、外部の開発者との相互コミュニケーションを通じて、自社や自社製品と開発者との継続的かつ良好な関係性を築くためのマーケティング手法です。
+私たちは <a href="https://devrel.connpass.com/">DevRel Meetup in Tokyo</a> と呼ばれるコミュニティを通して定期的にオフラインイベントを実施し、知見を共有しています。</p>
+
+<p>日本でも少しずつ認知度が向上していますが、DevRelは海外の方が盛んです。
+世界の各地で DevRelCon が開催され、日本でもMoongiftの中津川さんを中心に、2017年から毎年開催されています。</p>
+
+<p><a href="https://tokyo-2019.devrel.net/">DevRelCon Tokyo</a></p>
+
+<p>DevRelCon Tokyo はオリジナルを踏襲し、海外の著名なアドボケイトやエバンジェリストが多く来日し、セッションは日本語ではなく英語。日本にいながら海外のカンファレンスの雰囲気を味わうことができます。</p>
+
+<p>しかしながら英語がアダとなり、参加を見送る日本人が後をたたないという事実もありました。そこで誕生したのが DevRel/Japan Conference です。
+普段の DevRel Meetup in Tokyo の枠を越えて、参加者のみなさんと多くの学びと出会いを提供できるようなカンファレンスにしたいと思っています。</p>
+
+<p>そこで、この記事を読んでいるみなさまにお願いがあります！</p>
+
+<ol>
+  <li><a href="https://devrel.connpass.com/event/132576/">チケットページ</a>を公開しました。ぜひご登録お願いします！</li>
+  <li>一緒にイベントを盛り上げてくださる個人スポンサーを絶賛大募集しています。もちろん、豪華特典をご用意しています。詳しくは<a href="https://devrel.connpass.com/event/132576/">チケットページ</a>をご覧ください。</li>
+  <li>セッション登壇者を絶賛大募集しています。詳細は<a href="https://www.papercall.io/devrel-japan-2019">こちら</a>をご覧ください。</li>
+  <li>ご協力いただけるスポンサーさまを募集しています。ご興味がある企業さまはお問い合わせください。</li>
+</ol>
+
+<p>こちらのブログでは、当カンファレンスに関する最新情報をメインに発信する予定です。ぜひチェックしてください。</p>
+
+<p>では、9月7日をお楽しみに・・save the date!</p>]]></content><author><name>Hikaru Maruyama</name></author><summary type="html"><![CDATA[みなさんこんにちは。DevRel/Japan Conference 2019 の実行委員長 丸山です。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/japan-2019/assets/img/ogp.png" /><media:content medium="image" url="http://localhost:4000/japan-2019/assets/img/ogp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
