@@ -80,7 +80,7 @@ jekyll-mentions:
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, _site.nosync, node_modules.nosync, vendor.nosync]
 
 
-podcast_url: https://anchor.fm/devrel-meetup-in-tokyo
+podcast_url: https://podcasters.spotify.com/pod/show/devrel-tokyo
 
 podcast:
   title: DevRel/Radio

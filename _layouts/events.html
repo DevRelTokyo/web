@@ -17,7 +17,7 @@ layout: compress
       <div class="row">
         <h3 class="title">
           <a class="zoombtn" href="https://devrel.connpass.com/">
-        	   <p style="font-size:1.2rem;font-weight:300">最近のイベント</p>
+            <p style="font-size:1.2rem;font-weight:300">最近のイベント</p>
           </a>
         </h3>
         <hr class="hr-line">
@@ -26,10 +26,10 @@ layout: compress
             {% for event in site.data.events %} 
               <ul>
                   <li class="wow fadeInLeft event" data-wow-duration="1.5s">
-                      <a class="zoombtn event-title" href="{{ event.event_url }}" target="_blank">{{ event.title }}</a>
-                      <div><i class="fas fa-map-marker-alt"></i> {{ event.place }}</div>
-                      <div><i class="far fa-clock"></i> {{ event.started_at | date: '%Y年%m月%d日 %H:%M' }}</div>
-                      <div class="dtstart" style="display:none">{{ event.started_at }}</div>
+                      <a class="zoombtn event-title" href="{{ event.url }}" target="_blank">{{ event.title }}</a>
+                      <div><i class="fas fa-map-marker-alt"></i> {{ event.venue }}</div>
+                      <div><i class="far fa-clock"></i> {{ event.date | date: '%Y年%m月%d日 %H:%M' }}</div>
+                      <div class="dtstart" style="display:none">{{ event.date }}</div>
                   </li>
               </ul>
             {% endfor %}
@@ -39,6 +39,5 @@ layout: compress
     </div>
   </header>
   {% include scripts.html %}
-  
 </body>
 </html>

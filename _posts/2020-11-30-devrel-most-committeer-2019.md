@@ -2,7 +2,7 @@
 layout: post
 title: Most DevRel Committeer 2019の発表！
 date: 2020-01-29 12:00
-excerpt: 昨年よりDevRel Meetupの新しい施策として、 **Most DevRel Committeer** を開始しました。2019年受賞者を発表します！
+excerpt: 昨年よりDevRel/Tokyoの新しい施策として、 **Most DevRel Committeer** を開始しました。2019年受賞者を発表します！
 tags: [発表]
 comments: true
 ---
@@ -17,7 +17,7 @@ comments: true
 
 注意点としてはDevRelの発展ではなく、DevRel Meetupの発展であるということです。あくまでもコミュニティへの貢献が受賞基準になります。対象となるコミュニティは現時点では、次の4つです。
 
-- DevRel Meetup in Tokyo
+- DevRel/Tokyo
 - DevRel/Community
 - DevRel/English
 - DevRel/Beginners
@@ -66,4 +66,4 @@ comments: true
 
 2019年においては初開催となったDevRel/Japan Conferenceであったり、初商業出版となったDevRel Q&Aの執筆者が選ばれる結果となりました。2020年はどういった方々が選ばれるのか、楽しみです。
 
-DevRel MeetupはDevRelに興味がある、携わっている方々のためのコミュニティです。今後もますます発展させていけるよう、イベントや執筆活動などを行っていきます。運営メンバーも随時募集中です。運営はもちろん、DevRel自体に興味がある方はぜひ、[Slack](/)にご参加ください！
+DevRel/TokyoはDevRelに興味がある、携わっている方々のためのコミュニティです。今後もますます発展させていけるよう、イベントや執筆活動などを行っていきます。運営メンバーも随時募集中です。運営はもちろん、DevRel自体に興味がある方はぜひ、[Slack](/)にご参加ください！
