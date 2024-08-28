@@ -1,0 +1,63 @@
+---
+layout: page
+title: 協賛企業・個人の皆様
+permalink: /members/
+---
+
+<style>
+	.header {
+		color: #383838;
+	}
+</style>
+<header class="header" role="banner">
+	<div class="content">
+		<div class="post-title">
+			<p>DevRel/Tokyoを支援してくださる企業・個人の皆様をご紹介いたします。</p>
+		</div>
+		<div class="post-list">
+			{% assign companies = site.data.members | where: "type", "platinum" %}
+			{% if companies.size > 0 %}
+				<h2>プラチナ会員</h2>
+			{% endif %}
+			<div class="grid">
+				{% for company in companies %}
+					<div>
+						<div style="padding: 0.5rem;">
+							<a
+								href="{{ company.url }}"
+								target="_blank"
+							>
+								<img
+									src="https://img.moongift.dev/insecure/plain/{{ company.encode_image_url }}"
+									alt="{{ company.name }}"
+									title="{{ company.name }}"
+								/>
+							</a>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+			{% assign companies = site.data.members | where: "type", "personal" %}
+			{% if companies.size > 0 %}
+				<h2>個人会員</h2>
+			{% endif %}
+			<div class="grid">
+				{% for company in companies %}
+					<div>
+						<div>
+							<a
+								href="{{ company.url }}"
+								target="_blank"
+							>
+								{{ company.name }}
+							</a>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div style="padding-top: 2em; text-align: center;">
+			<h4>協賛は<a href="/donation/">こちら</a>にて承っています。</h4>
+		</div>
+	</div>
+</header>

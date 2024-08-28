@@ -1,5 +1,6 @@
 #!/bin/bash
 
-URL="https://script.google.com/macros/s/AKfycbwWJEIQZ0MFnMA4cWpN3F8lsdFDIr3I2L3d656taK4bqghysl8UzeeedW1pWs0zroc-6Q/exec"
+URL="https://script.google.com/macros/s/AKfycbzyocugzM5XZZdlfq1b8XMK2CvebcJsLaOmbsuIa4ep7qtoLCvtOgDbgvYpNA1VIzl-jw/exec"
 
-curl -L $URL > _data/events.json
+curl -L "$URL?name=events" > _data/events.json
+curl -L "$URL?name=members" > _data/members.json
