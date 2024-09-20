@@ -13,8 +13,11 @@ layout: compress
     {% include nav.html %}
     <!-- Header -->
     <header class="header flex" role="banner">
-        <div class="container animated fadeIn">
+        <div class="container">
             <div class="row">
+                <div id="auth" style="position: relative; top: 0px; right: 1rem; text-align: right;">
+                    <i class="fa-solid fa-right-to-bracket" style="font-size: 30px;"></i>
+                </div>
                     <a href="{{ site.url }}">
                         <img src="{{ site.logo }}" width="400px">
                     </a>
@@ -30,44 +33,46 @@ layout: compress
 			            </a>                  
                     </h3>
                     {% include social-links.html %}
-                  <h3>DevRel/Japan CONFERENCE 2024は9月14日（土）開催！</h3>
-                  <a href="https://devrel.tokyo/japan-2024/">
-                    <img src="https://devrel.tokyo/japan-2024/assets/media/confenrece-image.jpg" style="width: 100%;" />
-                  </a>
                   <hr class="hr-line">
                   <h3 class="title">
                          <a class="btn zoombtn" href="/about">
                          About
                          </a>
                          <a class="btn zoombtn" href="/roadmap/">
-                            Leaning
+                            学習
                          </a>
                          <a class="btn zoombtn" href="/posts">
-                         Blog
+                         ブログ
                          </a>
                          <a class="btn zoombtn" href="/events">
-                         Event
+                         イベント
                          </a>
                          <a class="btn zoombtn" href="/books">
-                         Book
+                         書籍
                          </a>
+                         <a class="btn zoombtn" href="/ja/manga">
+                            マンガ
+                        </a>
                  </h3>
            </div>
-           <div style="text-align: center;">
+           <div style="text-align: center; padding-bottom: 2rem;">
             <a href="/about/association/" style="margin: 0px 5px">
             運営団体
             </a> | 
             <a class="" href="/privacy" style="margin: 0px 5px">
-            プライバシーポリシー
+                プライバシーポリシー
             </a> | 
             <a class="" href="/coc" style="margin: 0px 5px">
-            行動規範
+                行動規範
             </a> | 
             <a class="" href="/donation" style="margin: 0px 5px">
-            協賛について
+                協賛について
             </a> | 
             <a class="" href="/members/" style="margin: 0px 5px">
                 会員
+            </a> |
+            <a class="" href="/specified_commercial/" style="margin: 0px 5px">
+                特定商取引法に基づく表記
             </a>
         </div>
     </header>

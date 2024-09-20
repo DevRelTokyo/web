@@ -5,7 +5,8 @@
   "main": "ical.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "bundle exec jekyll serve",
+    "start": "npx wrangler pages dev _site",
+    "watch": "bundle exec jekyll build --watch ",
     "deploy": "bundle exec jekyll build && wrangler pages deploy ./_site",
     "ical": "node ical.js"
   },
@@ -20,12 +21,17 @@
   },
   "homepage": "https://github.com/DevRelMeetupTokyo/DevRelMeetupTokyo.github.io#readme",
   "dependencies": {
+    "hono": "^4.5.10",
     "ical2json": "^1.2.0",
     "js-yaml": "^3.13.1",
     "json2yaml": "^1.1.0",
-    "superagent": "^5.1.0"
+    "mustache": "^4.2.0",
+    "parse": "^5.3.0",
+    "superagent": "^5.1.0",
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
-    "wrangler": "^3.22.4"
+    "@types/mustache": "^4.2.5",
+    "wrangler": "^3.72.3"
   }
 }

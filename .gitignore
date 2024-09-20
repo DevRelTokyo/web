@@ -19,3 +19,6 @@ japan-2022
 japan-2023
 japan-2024
 japan-2019
+.production.vars
+.dev.vars
+.wrangler
