@@ -22,7 +22,7 @@ permalink: /about/association/
 		</tr>
 		<tr>
 			<th>所在地</th>
-			<td>神奈川県横浜市神奈川区金港町5-14クアドリフォリオ8階</td>
+			<td>〒221-0056 神奈川県横浜市神奈川区金港町5-14クアドリフォリオ8階</td>
 		</tr>
 		<tr>
 			<th>代表理事</th>
@@ -31,6 +31,10 @@ permalink: /about/association/
 		<tr>
 			<th>理事</th>
 			<td>小田 祥平</td>
+		</tr>
+		<tr>
+			<th>理事</th>
+			<td>川下 太郎</td>
 		</tr>
 	</tbody>
 </table>
