@@ -7,7 +7,7 @@ const {promisify} = require('util');
   const res = await request
     .get('https://connpass.com/api/v2/events/?group_id=1384')
     .set('User-Agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36')
-    .set('X-API-Key', 'bTOJAsVc.Fpiv2jjvRKMFWi8cM46v0hokggXR836P8VgNWjLvNottcTObumxrB6XG')
+    .set('X-API-Key', process.env.CONNPASS_API_KEY)
     .send();
   const json = JSON.parse(res.text).events;
   json.sort((a, b) => {
